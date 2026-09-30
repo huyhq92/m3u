@@ -1,9 +1,7 @@
 name: IPTV Checker Auto
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công bất kỳ lúc nào
 
 jobs:
   check-iptv:
@@ -18,14 +16,14 @@ jobs:
       with:
         node-version: 20
 
-    - name: Cài đặt công cụ IPTV Checker chính xác
+    - name: Cài đặt công cụ kiểm tra IPTV nâng cao
       run: npm install -g iptv-checker
 
-    - name: Chạy kiểm tra link
+    - name: Chạy kiểm tra link (Giả lập đầu phát TV)
+      # Lệnh này thêm cấu hình giả lập User-Agent của VLC Media Player để đài truyền hình không chặn robot
       run: |
-        iptv-checker -i input.m3u -o output.m3u --timeout 5000 --no-check || true
-        # Lệnh dự phòng: Tạo file trống nếu công cụ không sinh ra file output.m3u
-        touch output.m3u 
+        iptv-checker -i input.m3u -o output.m3u --timeout 8000 -u "VLC/3.0.18 LibVLC/3.0.18" || true
+        touch output.m3u
 
     - name: Cập nhật file sạch lên GitHub
       run: |
