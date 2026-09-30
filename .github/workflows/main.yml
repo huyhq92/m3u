@@ -22,7 +22,10 @@ jobs:
       run: npm install -g iptv-checker
 
     - name: Chạy kiểm tra link
-      run: iptv-checker -i input.m3u -o output.m3u --timeout 5000 || true
+      run: |
+        iptv-checker -i input.m3u -o output.m3u --timeout 5000 || true
+        # Lệnh dự phòng: Tạo file trống nếu công cụ không sinh ra file output.m3u
+        touch output.m3u 
 
     - name: Cập nhật file sạch lên GitHub
       run: |
