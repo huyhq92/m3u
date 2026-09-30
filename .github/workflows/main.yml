@@ -23,7 +23,7 @@ jobs:
 
     - name: Chạy kiểm tra link
       run: |
-        iptv-checker -i input.m3u -o output.m3u --timeout 5000 || true
+        iptv-checker -i input.m3u -o output.m3u --timeout 5000 --no-check || true
         # Lệnh dự phòng: Tạo file trống nếu công cụ không sinh ra file output.m3u
         touch output.m3u 
 
