@@ -1,0 +1,34 @@
+name: IPTV Checker Auto
+
+on:
+  schedule:
+    # Chạy tự động vào lúc 0h00 mỗi ngày (giờ UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công bất kỳ lúc nào
+
+jobs:
+  check-iptv:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout mã nguồn
+      uses: actions/checkout@v4
+
+    - name: Cài đặt Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+
+    - name: Cài đặt công cụ IPTV Checker
+      run: npm install -g iptv-checker-cli
+
+    - name: Chạy kiểm tra link
+      run: iptv-checker -i input.m3u -o output.m3u --timeout 5000
+
+    - name: Cập nhật file sạch lên GitHub
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add output.m3u
+        git commit -m "Robot tự động cập nhật danh sách kênh sạch" || exit 0
+        git push
