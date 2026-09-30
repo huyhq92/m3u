@@ -1,7 +1,7 @@
-name: IPTV Checker Auto
+name: IPTV Script Python Auto
 
 on:
-  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công bất kỳ lúc nào
+  workflow_dispatch:
 
 jobs:
   check-iptv:
@@ -11,24 +11,72 @@ jobs:
     - name: Checkout mã nguồn
       uses: actions/checkout@v4
 
-    - name: Cài đặt Node.js
-      uses: actions/setup-node@v4
+    - name: Cài đặt Python
+      uses: actions/setup-python@v5
       with:
-        node-version: 20
+        python-version: '3.10'
 
-    - name: Cài đặt công cụ kiểm tra IPTV nâng cao
-      run: npm install -g iptv-checker
+    - name: Cài đặt thư viện mạng cần thiết
+      run: pip install requests
 
-    - name: Chạy kiểm tra link (Giả lập đầu phát TV)
-      # Lệnh này thêm cấu hình giả lập User-Agent của VLC Media Player để đài truyền hình không chặn robot
+    - name: Tự động chạy Script Python kiểm tra luồng kênh
       run: |
-        iptv-checker -i input.m3u -o output.m3u --timeout 8000 -u "VLC/3.0.18 LibVLC/3.0.18" || true
-        touch output.m3u
+        python -c '
+        import requests
+        import re
+
+        try:
+            with open("input.m3u", "r", encoding="utf-8") as f:
+                content = f.read()
+        except FileNotFoundError:
+            print("Không tìm thấy file input.m3u")
+            exit(1)
+
+        lines = content.splitlines()
+        output_lines = ["#EXTM3U"]
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+        }
+
+        current_info = None
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith("#EXTM3U"):
+                continue
+            if line.startswith("#EXTINF"):
+                current_info = line
+            elif line.startswith("http"):
+                if current_info:
+                    print(f"Đang kiểm tra bằng code: {line}")
+                    try:
+                        # Gửi lệnh kiểm tra nhanh đầu tệp video trong vòng 5 giây
+                        response = requests.head(line, headers=headers, timeout=5, allow_redirects=True)
+                        # Nếu máy chủ phản hồi tốt hoặc đài tỉnh chỉ chặn IP (403/405) nhưng link vẫn tồn tại thì giữ lại
+                        if response.status_code in:
+                            output_lines.append(current_info)
+                            output_lines.append(line)
+                            print(" -> SỐNG (Giữ lại)")
+                        else:
+                            print(f" -> CHẾT (Mã lỗi {response.status_code})")
+                    except Exception as e:
+                        # Nếu lỗi kết nối mạng quốc tế hoặc timeout thì giữ lại dự phòng thay vì xóa sạch
+                        output_lines.append(current_info)
+                        output_lines.append(line)
+                        print(" -> Giữ lại (Dự phòng mạng lỗi)")
+                    current_info = None
+
+        with open("output.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(output_lines) + "\n")
+        print("Đã hoàn thành kiểm tra bằng code!")
+        '
 
     - name: Cập nhật file sạch lên GitHub
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add output.m3u
-        git commit -m "Robot tự động cập nhật danh sách kênh sạch" || exit 0
+        git commit -m "Robot Python tự động cập nhật danh sách kênh sạch" || exit 0
         git push
