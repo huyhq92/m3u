@@ -36,7 +36,7 @@ jobs:
         output_lines = ["#EXTM3U"]
         
         headers = {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
 
         current_info = None
@@ -50,22 +50,22 @@ jobs:
                 current_info = line
             elif line.startswith("http"):
                 if current_info:
-                    print(f"Đang kiểm tra bằng code: {line}")
+                    print(f"Đang kiểm tra: {line}")
                     try:
-                        # Gửi lệnh kiểm tra nhanh đầu tệp video trong vòng 5 giây
+                        # Gửi yêu cầu kết nối nhanh để kiểm tra link
                         response = requests.head(line, headers=headers, timeout=5, allow_redirects=True)
-                        # Nếu máy chủ phản hồi tốt hoặc đài tỉnh chỉ chặn IP (403/405) nhưng link vẫn tồn tại thì giữ lại
+                        # Nếu phản hồi tốt (200, 301, 302) hoặc chặn IP nhưng link tồn tại (403, 405) thì giữ lại
                         if response.status_code in:
                             output_lines.append(current_info)
                             output_lines.append(line)
-                            print(" -> SỐNG (Giữ lại)")
+                            print(f" -> OK (Mã {response.status_code})")
                         else:
-                            print(f" -> CHẾT (Mã lỗi {response.status_code})")
+                            print(f" -> LỖI (Mã {response.status_code})")
                     except Exception as e:
-                        # Nếu lỗi kết nối mạng quốc tế hoặc timeout thì giữ lại dự phòng thay vì xóa sạch
+                        # Nếu lỗi timeout mạng quốc tế thì vẫn giữ lại dự phòng cho mạng VN xem
                         output_lines.append(current_info)
                         output_lines.append(line)
-                        print(" -> Giữ lại (Dự phòng mạng lỗi)")
+                        print(" -> Giữ lại (Lỗi mạng hoặc Timeout)")
                     current_info = None
 
         with open("output.m3u", "w", encoding="utf-8") as f:
