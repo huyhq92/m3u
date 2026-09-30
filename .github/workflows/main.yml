@@ -2,9 +2,8 @@ name: IPTV Checker Auto
 
 on:
   schedule:
-    # Chạy tự động vào lúc 0h00 mỗi ngày (giờ UTC)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công bất kỳ lúc nào
+  workflow_dispatch:
 
 jobs:
   check-iptv:
@@ -17,13 +16,13 @@ jobs:
     - name: Cài đặt Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 20
 
-    - name: Cài đặt công cụ IPTV Checker
-      run: npm install -g iptv-checker-cli
+    - name: Cài đặt công cụ IPTV Checker chính xác
+      run: npm install -g iptv-checker
 
     - name: Chạy kiểm tra link
-      run: iptv-checker -i input.m3u -o output.m3u --timeout 5000
+      run: iptv-checker -i input.m3u -o output.m3u --timeout 5000 || true
 
     - name: Cập nhật file sạch lên GitHub
       run: |
