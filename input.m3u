@@ -35,8 +35,8 @@ https://livesct.vtvprime.vn/Live_DASHDRM1/VTV2_HD/manifest.mpd
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8099c6c4ebc4ab88ce6f694f912e26d:ec57977de110995b8fc5d42e4ffdbcc9
-https://livezenatm.vtvprime.vn/live/data8/VTV3_HD/Live_DASHDRM/VTV3_HD.mpd
+#KODIPROP:inputstream.adaptive.license_key=ab8e9ca9a7cb4ec987320928e1267467:fd18c2d91bb042e0ba4189944e575148
+https://livevliatmcdw.seenow.vn/live/data8/VTV3_HD/Live_DASHDRM/VTV3_HD.mpd
 #EXTINF:-1 tvg-id="vtv4hd" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/4.png" group-title="🌟VTV & VTVCab🌟" catchup="default" catchup-days="2" catchup-source="https://livesct.vtvprime.vn/Live_DASHDRM1/VTV4_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",VTV4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -63,8 +63,8 @@ https://livevlisctcdnw.seenow.vn/livesnv2/VTV5_TN/manifest.mpd
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8099c6c4ebc4ab88ce6f694f912e26d:ec57977de110995b8fc5d42e4ffdbcc9
-https://livezenatm.vtvprime.vn/live/data8/VTV6/Live_DASHDRM/VTV6.mpd
+#KODIPROP:inputstream.adaptive.license_key=a4e587cdfcc84d96a772680490c31f25:2f95f8bdfb754cf1a2566b0b0c76cc86
+https://livevliatmcdw.seenow.vn/live/data8/VTV6/Live_DASHDRM/VTV6.mpd
 #EXTINF:-1 tvg-id="vtv7hd" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/7.png" group-title="🌟VTV & VTVCab🌟" catchup="default" catchup-days="2" catchup-source="https://livezenatm.vtvprime.vn/live/data8/VTV7_HD/Live_DASHDRM/VTV7_HD.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
