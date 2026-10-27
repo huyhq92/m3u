@@ -1,0 +1,42 @@
+name: Dong bo nguon SuperOK -> input.m3u
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Moi 2 gio (gio UTC). Nguon SuperOK cap nhat nhieu lan/ngay.
+    # Muon nhanh/cham hon thi sua so nay, vi du "0 * * * *" = moi gio.
+    - cron: "0 */2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-source
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cai dat Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Cai dat thu vien giai ma
+        run: pip install pycryptodome
+
+      - name: Tai + giai ma + loc nguon
+        run: python sync.py
+
+      - name: Commit input.m3u neu co thay doi
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add input.m3u
+          git diff --staged --quiet && echo "Khong co thay doi" && exit 0
+          git commit -m "Tu dong dong bo nguon SuperOK (da loc theo danh sach ca nhan)"
+          git push
