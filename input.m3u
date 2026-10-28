@@ -1350,3 +1350,35 @@ https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a5
 https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8
 #EXTINF:-1 group-title="🎵 Nghe nhạc" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/picture/main/nkl.png", ZingRadio 12 - Nhạc không lời
 https://multi-playlist-zmp3.zmdcdn.me/4WEUr_3aq8I/zhls/playback-realtime/1f36d59ae9df008159ce/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Be%C5%9Fikta%C5%9F%20JK%20Vs%20Olympiacos%20BC.jpg" group-title="Basketball", Beşiktaş JK Vs Olympiacos BC - STREAM TV + HD
+https://www.rtmpcdn.com/live/11d0e700-9718-4998-867d-9c122922fa60.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Be%C5%9Fikta%C5%9F%20JK%20Vs%20Olympiacos%20BC.jpg" group-title="Basketball", Beşiktaş JK Vs Olympiacos BC - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/HHHH4QQQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hapoel%20Tel-Aviv%20Vs%20Anadolu%20Efes.jpg" group-title="Basketball", Hapoel Tel-Aviv Vs Anadolu Efes - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/5JJJ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hapoel%20Tel-Aviv%20Vs%20Anadolu%20Efes.jpg" group-title="Basketball", Hapoel Tel-Aviv Vs Anadolu Efes - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/5JJJ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Hapoel%20Tel-Aviv%20Vs%20Anadolu%20Efes.jpg" group-title="Basketball", Hapoel Tel-Aviv Vs Anadolu Efes - HD QUALITY
+https://www.rtmpcdn.com/live/5JJJ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/LDLC%20ASVEL%20Lyon-Villeurbanne%20Vs%20KK%20Partizan%20Mozzart%20Bet.jpg" group-title="Basketball", LDLC ASVEL Lyon-Villeurbanne Vs KK Partizan Mozzart Bet - HD QUALITY
+https://www.rtmpcdn.com/live/46652566-cc88-4381-bbe9-6b8773f50dd4.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/LDLC%20ASVEL%20Lyon-Villeurbanne%20Vs%20KK%20Partizan%20Mozzart%20Bet.jpg" group-title="Basketball", LDLC ASVEL Lyon-Villeurbanne Vs KK Partizan Mozzart Bet - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/OOOOCQQQAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/LDLC%20ASVEL%20Lyon-Villeurbanne%20Vs%20KK%20Partizan%20Mozzart%20Bet.jpg" group-title="Basketball", LDLC ASVEL Lyon-Villeurbanne Vs KK Partizan Mozzart Bet - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/OOOOCQQQAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Virtus%20Bologna%20Vs%20Kauno%20%C5%BDalgiris.jpg" group-title="Basketball", Virtus Bologna Vs Kauno Žalgiris - STREAM TV + HD
+https://www.rtmpcdn.com/live/ec7baf06-bc7d-44c7-ba1c-f50c64f9177a.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Virtus%20Bologna%20Vs%20Kauno%20%C5%BDalgiris.jpg" group-title="Basketball", Virtus Bologna Vs Kauno Žalgiris - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/OOOOCQQQAAAQ.m3u8
