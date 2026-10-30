@@ -1,0 +1,171 @@
+name: TV44 - nguon 4note + VTV Go (full.m3u)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Moi 2 gio, sau khi sync input (:00) va update full (:30) da chay xong
+    - cron: "50 */2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tv44
+  cancel-in-progress: false
+
+jobs:
+  tv44:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cai dat Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Dung tv44.m3u (hop nhat 4note + VTV Go + kenh cu, khong mat kenh)
+        run: |
+          python3 - << 'PYEOF'
+          import os
+          import re
+          import sys
+          import urllib.request
+
+          SRC_URL = "https://4note.net/raw/psmsicxdcn"
+          SNAPSHOT = "tv44-source.m3u"   # ban chup nguon 4note gan nhat tai duoc (du phong khi Cloudflare chan)
+          FULL = "full.m3u"              # chi de lay nhom VTV Go
+          OLD = "tv44.m3u"               # file tv44 hien tai tren repo (de giu lai kenh cu)
+          UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+
+          # Thu tu nhom trong tv44.m3u (VTV Go lay tu full.m3u, con lai tu nguon 4note)
+          GROUP_ORDER = ["VTV", "VTV Go", "Thiết yếu", "HTV", "THVL", "VTVcab",
+                         "SCTV", "Địa phương", "Quốc Tế", "Sự Kiện"]
+          # Ten nhom kieu cu (trong tv44.m3u hien tai, goc SuperOK) -> xep vao cung o
+          GROUP_ALIAS = {"kênhquốctế": "Quốc Tế", "sựkiệntv360": "Sự Kiện", "tv360events": "Sự Kiện"}
+
+          def norm(s):
+              return "".join(ch for ch in s.lower() if ch.isalnum())
+
+          RANK = {norm(g): i for i, g in enumerate(GROUP_ORDER)}
+
+          def rank_of(group):
+              n = norm(group)
+              if n in RANK:
+                  return RANK[n]
+              if n in GROUP_ALIAS:
+                  return RANK[norm(GROUP_ALIAS[n])]
+              return len(RANK)  # nhom la (kenh cu giu lai) -> xep cuoi
+
+          def parse(text):
+              header = None
+              entries = []
+              cur = None
+              for line in text.splitlines():
+                  if line.startswith("#EXTM3U"):
+                      header = line.strip()
+                  elif line.startswith("#EXTINF"):
+                      m = re.search(r'group-title="([^"]*)"', line)
+                      cur = {"group": m.group(1) if m else "", "lines": [line], "url": ""}
+                      entries.append(cur)
+                  elif cur is not None:
+                      if line.strip().startswith("http"):
+                          cur["lines"].append(line)
+                          cur["url"] = line.strip()
+                          cur = None
+                      elif line.startswith("#"):
+                          cur["lines"].append(line)
+              return header, [e for e in entries if e["url"]]
+
+          def playable_44(entry):
+              # H&M-TV 4.4 chi phat HLS khong DRM: loai DASH (.mpd/manifest mpd) + ClearKey
+              blob = "\n".join(entry["lines"]).lower()
+              if ".mpd" in entry["url"].lower():
+                  return False
+              if "manifest_type=mpd" in blob:
+                  return False
+              if "license_key" in blob or "license_type=clearkey" in blob:
+                  return False
+              return True
+
+          # --- 1) Lay nguon 4note (Cloudflare co the chan bot -> dung ban chup gan nhat) ---
+          src_text = None
+          try:
+              req = urllib.request.Request(SRC_URL, headers=UA)
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  data = r.read().decode("utf-8", errors="strict")
+              if data.startswith("#EXTM3U") and data.count("#EXTINF") >= 50:
+                  src_text = data
+                  print(f"Tai nguon 4note OK: {data.count('#EXTINF')} kenh")
+              else:
+                  print("Nguon 4note tra ve khong phai playlist (nghi bi Cloudflare chan)")
+          except Exception as e:
+              print(f"Tai nguon 4note loi: {e}")
+          if src_text is None and os.path.exists(SNAPSHOT):
+              src_text = open(SNAPSHOT, encoding="utf-8").read()
+              print(f"Dung ban chup {SNAPSHOT}: {src_text.count('#EXTINF')} kenh")
+          if src_text is None:
+              print("Khong co nguon 4note lan ban chup - dung lai, giu nguyen tv44.m3u cu")
+              sys.exit(1)
+          else:
+              with open(SNAPSHOT, "w", encoding="utf-8") as f:
+                  f.write(src_text)
+
+          src_header, src_entries = parse(src_text)
+          wanted = {norm(g) for g in GROUP_ORDER} - {norm("VTV Go")}
+          picked = [e for e in src_entries if norm(e["group"]) in wanted]
+          print(f"4note thuoc cac nhom da chon: {len(picked)} kenh")
+
+          # --- 2) VTV Go tu full.m3u ---
+          vtvgo = []
+          if os.path.exists(FULL):
+              _, full_entries = parse(open(FULL, encoding="utf-8").read())
+              vtvgo = [e for e in full_entries if norm(e["group"]) == norm("VTV Go")]
+          print(f"VTV Go tu full.m3u: {len(vtvgo)} kenh")
+
+          # --- 3) Hop nhat + giu lai kenh cu (khong mat kenh), chi loc dinh dang 4.4 ---
+          merged = []
+          seen = set()
+          for e in picked + vtvgo:
+              if e["url"] in seen or not playable_44(e):
+                  continue
+              seen.add(e["url"])
+              merged.append(e)
+
+          old_count = 0
+          if os.path.exists(OLD):
+              _, old_entries = parse(open(OLD, encoding="utf-8").read())
+              old_count = len(old_entries)
+              kept_old = 0
+              for e in old_entries:
+                  if e["url"] in seen or not playable_44(e):
+                      continue
+                  seen.add(e["url"])
+                  merged.append(e)
+                  kept_old += 1
+              print(f"Giu lai tu tv44 cu: {kept_old} kenh (tong cu {old_count})")
+
+          merged.sort(key=lambda e: rank_of(e["group"]))  # sort on dinh: giu thu tu trong nhom
+
+          if len(merged) < old_count:
+              print(f"CANH BAO: ket qua {len(merged)} < so kenh cu {old_count} - dung lai de khong mat kenh")
+              sys.exit(1)
+
+          header = src_header or '#EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"'
+          with open(OLD, "w", encoding="utf-8") as f:
+              f.write(header + "\n")
+              for e in merged:
+                  f.write("\n".join(e["lines"]) + "\n")
+          print(f"Da ghi tv44.m3u: {len(merged)} kenh")
+          PYEOF
+
+      - name: Commit tv44.m3u neu co thay doi
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add tv44.m3u tv44-source.m3u
+          git diff --staged --quiet && echo "Khong co thay doi" && exit 0
+          git commit -m "Tu dong cap nhat tv44.m3u (nguon 4note + VTV Go, khong mat kenh)"
+          git pull --rebase origin main
+          git push
