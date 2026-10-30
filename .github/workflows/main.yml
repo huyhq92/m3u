@@ -24,69 +24,132 @@ jobs:
     - name: Cài đặt thư viện mạng cần thiết
       run: pip install requests
 
-    - name: Tự động chạy Script Python kiểm tra luồng kênh
+    - name: Kiểm tra link sống/chết và xuất output.m3u + tv44.m3u
       run: |
-        python -c '
-        import requests
+        python3 - << 'PYEOF'
+        import os
         import re
+        import sys
 
-        try:
-            with open("input.m3u", "r", encoding="utf-8") as f:
-                content = f.read()
-        except FileNotFoundError:
-            print("Không tìm thấy file input.m3u")
-            exit(1)
+        import requests
 
-        lines = content.splitlines()
-        output_lines = ["#EXTM3U"]
-        
-        headers = {
+        SRC = "full.m3u"          # nguon goc nguyen ven (workflow update-full tu cap nhat)
+        OUT_ALL = "output.m3u"    # cac nhom duoi day, kenh con song, GIU NGUYEN cau hinh
+        OUT_44 = "tv44.m3u"       # nhu output nhung chi kenh phat duoc tren Android 4.4
+
+        # Chi lay kenh thuoc cac nhom nay (so khop khong tinh emoji/hoa-thuong)
+        WANTED_GROUPS = [
+            "🌟VTV & VTVCab🌟",
+            "🌟VTV Go🌟",
+            "🌟HTV🌟",
+            "🌟SCTV🌟",
+            "🌟Địa Phương🌟",
+            "🌟Hoạt Hình🌟",
+            "🌟Kênh Quốc Tế🌟",
+            "🌟VIP MOVIE🌟",
+            "🌟VIP SPORTS🌟",
+            "Sự Kiện TV360",
+            "🇻🇳 TV360 EVENTS",
+        ]
+
+        HEADERS = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
+        VALID_STATUS = {200, 301, 302, 403, 405}
+        SKIP_CHECK = os.environ.get("SKIP_CHECK") == "1"
 
-        current_info = None
-        for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-            if line.startswith("#EXTM3U"):
-                continue
-            if line.startswith("#EXTINF"):
-                current_info = line
-            elif line.startswith("http"):
-                if current_info:
-                    print(f"Đang kiểm tra: {line}")
-                    try:
-                        # Gửi yêu cầu kết nối nhanh để kiểm tra link
-                        response = requests.head(line, headers=headers, timeout=5, allow_redirects=True)
-                        status = response.status_code
-                        # Kiểm tra xem mã lỗi phản hồi có thuộc nhóm hợp lệ hay không
-                        is_valid = False
-                        if status == 200 or status == 301 or status == 302 or status == 403 or status == 405:
-                            is_valid = True
-                        
-                        if is_valid:
-                            output_lines.append(current_info)
-                            output_lines.append(line)
-                            print(f" -> OK (Mã {status})")
-                        else:
-                            print(f" -> LỖI (Mã {status})")
-                    except Exception as e:
-                        # Nếu lỗi timeout mạng quốc tế thì vẫn giữ lại dự phòng cho mạng VN xem
-                        output_lines.append(current_info)
-                        output_lines.append(line)
-                        print(" -> Giữ lại (Lỗi mạng hoặc Timeout)")
-                    current_info = None
+        def norm(s):
+            return "".join(ch for ch in s.lower() if ch.isalnum())
 
-        with open("output.m3u", "w", encoding="utf-8") as f:
-            f.write("\n".join(output_lines) + "\n")
-        print("Đã hoàn thành kiểm tra bằng code!")
-        '
+        WANTED = {norm(g) for g in WANTED_GROUPS}
+
+        def parse(text):
+            header = "#EXTM3U"
+            entries = []
+            cur = None
+            for line in text.splitlines():
+                if line.startswith("#EXTM3U"):
+                    header = line.strip()
+                elif line.startswith("#EXTINF"):
+                    m = re.search(r'group-title="([^"]*)"', line)
+                    cur = {"group": m.group(1) if m else "", "lines": [line], "url": ""}
+                    entries.append(cur)
+                elif cur is not None:
+                    if line.strip().startswith("http"):
+                        cur["lines"].append(line)
+                        cur["url"] = line.strip()
+                        cur = None
+                    elif line.startswith("#"):
+                        cur["lines"].append(line)
+            return header, [e for e in entries if e["url"]]
+
+        def playable_44(entry):
+            # Ban H&M-TV 4.4 (framework player) chi phat HLS khong DRM:
+            # loai DASH (.mpd / manifest_type=mpd) va ClearKey (license_key/clearkey)
+            blob = "\n".join(entry["lines"]).lower()
+            if ".mpd" in entry["url"].lower():
+                return False
+            if "manifest_type=mpd" in blob:
+                return False
+            if "license_key" in blob or "license_type=clearkey" in blob:
+                return False
+            return True
+
+        cache = {}
+
+        def alive(url):
+            if SKIP_CHECK:
+                return True
+            if url in cache:
+                return cache[url]
+            try:
+                r = requests.head(url, headers=HEADERS, timeout=5, allow_redirects=True)
+                ok = r.status_code in VALID_STATUS
+                print(f"  {'OK ' if ok else 'DIE'} ({r.status_code}) {url[:90]}")
+            except Exception:
+                # Loi mang/timeout (mang quoc te) -> giu lai du phong cho mang VN
+                ok = True
+                print(f"  KEEP (loi mang/timeout) {url[:90]}")
+            cache[url] = ok
+            return ok
+
+        if not os.path.exists(SRC):
+            print(f"Khong thay {SRC} - dung lai, khong ghi de file cu")
+            sys.exit(1)
+
+        with open(SRC, encoding="utf-8") as f:
+            header, entries = parse(f.read())
+        print(f"{SRC}: {len(entries)} kenh")
+
+        picked = [e for e in entries if norm(e["group"]) in WANTED]
+        print(f"Thuoc 11 nhom da chon: {len(picked)} kenh - bat dau kiem tra link...")
+
+        live = [e for e in picked if alive(e["url"])]
+        print(f"Con song: {len(live)}/{len(picked)}")
+
+        live44 = [e for e in live if playable_44(e)]
+        print(f"Trong do phat duoc tren Android 4.4: {len(live44)}")
+
+        if not live:
+            print("0 kenh song - nghi ngo loi mang dien rong, dung lai de bao toan file cu")
+            sys.exit(1)
+
+        def dump(path, items):
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(header + "\n")
+                for e in items:
+                    f.write("\n".join(e["lines"]) + "\n")
+            print(f"Da ghi {path}: {len(items)} kenh")
+
+        dump(OUT_ALL, live)
+        dump(OUT_44, live44)
+        PYEOF
 
     - name: Cập nhật file sạch lên GitHub
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output.m3u
+        git add output.m3u tv44.m3u
         git commit -m "Robot Python tự động cập nhật danh sách kênh sạch" || exit 0
+        git pull --rebase origin main || true
         git push
