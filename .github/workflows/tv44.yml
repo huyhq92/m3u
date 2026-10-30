@@ -273,11 +273,11 @@ jobs:
           _pair = (e["url"], chan_name(e))
           if _pair in _seen_pair:
           continue
-  _seen_pair.add(_pair)
-  _deduped.append(e)
-      print(f"Loai dong trung (URL+ten): {len(merged) - len(_deduped)}")
-      merged = _deduped
-      
+              _seen_pair.add(_pair)
+              _deduped.append(e)
+          print(f"Loai dong trung (URL+ten): {len(merged) - len(_deduped)}")
+          merged = _deduped
+
           header = src_header or '#EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"'
           with open(OLD, "w", encoding="utf-8") as f:
               f.write(header + "\n")
