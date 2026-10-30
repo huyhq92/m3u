@@ -24,7 +24,7 @@ jobs:
     - name: Cài đặt thư viện mạng cần thiết
       run: pip install requests
 
-    - name: Kiểm tra link sống/chết và xuất output.m3u + tv44.m3u
+    - name: Kiểm tra link sống/chết và xuất output.m3u
       run: |
         python3 - << 'PYEOF'
         import os
@@ -35,7 +35,7 @@ jobs:
 
         SRC = "full.m3u"          # nguon goc nguyen ven (workflow update-full tu cap nhat)
         OUT_ALL = "output.m3u"    # cac nhom duoi day, kenh con song, GIU NGUYEN cau hinh
-        OUT_44 = "tv44.m3u"       # nhu output nhung chi kenh phat duoc tren Android 4.4
+        # tv44.m3u do workflow rieng tv44.yml phu trach (nguon 4note), khong xu ly o day
 
         # Chi lay kenh thuoc cac nhom nay (so khop khong tinh emoji/hoa-thuong)
         WANTED_GROUPS = [
@@ -83,18 +83,6 @@ jobs:
                         cur["lines"].append(line)
             return header, [e for e in entries if e["url"]]
 
-        def playable_44(entry):
-            # Ban H&M-TV 4.4 (framework player) chi phat HLS khong DRM:
-            # loai DASH (.mpd / manifest_type=mpd) va ClearKey (license_key/clearkey)
-            blob = "\n".join(entry["lines"]).lower()
-            if ".mpd" in entry["url"].lower():
-                return False
-            if "manifest_type=mpd" in blob:
-                return False
-            if "license_key" in blob or "license_type=clearkey" in blob:
-                return False
-            return True
-
         cache = {}
 
         def alive(url):
@@ -127,9 +115,6 @@ jobs:
         live = [e for e in picked if alive(e["url"])]
         print(f"Con song: {len(live)}/{len(picked)}")
 
-        live44 = [e for e in live if playable_44(e)]
-        print(f"Trong do phat duoc tren Android 4.4: {len(live44)}")
-
         if not live:
             print("0 kenh song - nghi ngo loi mang dien rong, dung lai de bao toan file cu")
             sys.exit(1)
@@ -142,14 +127,13 @@ jobs:
             print(f"Da ghi {path}: {len(items)} kenh")
 
         dump(OUT_ALL, live)
-        dump(OUT_44, live44)
         PYEOF
 
     - name: Cập nhật file sạch lên GitHub
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output.m3u tv44.m3u
+        git add output.m3u
         git commit -m "Robot Python tự động cập nhật danh sách kênh sạch" || exit 0
         git pull --rebase origin main || true
         git push
