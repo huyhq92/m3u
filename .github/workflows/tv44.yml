@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Dung tv44.m3u (hop nhat 4note + VTV Go + kenh cu, khong mat kenh)
+      - name: Dung tv44.m3u (nhom dung theo nguon 4note + VTV Go tu full.m3u)
         run: |
           python3 - << 'PYEOF'
           import os
@@ -36,27 +36,27 @@ jobs:
           SRC_URL = "https://4note.net/raw/psmsicxdcn"
           SNAPSHOT = "tv44-source.m3u"   # ban chup nguon 4note gan nhat tai duoc (du phong khi Cloudflare chan)
           FULL = "full.m3u"              # chi de lay nhom VTV Go
-          OLD = "tv44.m3u"               # file tv44 hien tai tren repo (de giu lai kenh cu)
+          OLD = "tv44.m3u"               # file tv44 hien tai tren repo (de gop kenh cu trung nhom)
           UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
-          # Thu tu nhom trong tv44.m3u (VTV Go lay tu full.m3u, con lai tu nguon 4note)
+          # Cau truc nhom cua tv44.m3u = DUNG cac nhom cua nguon 4note (ten + thu tu),
+          # chen them "VTV Go" (lay tu full.m3u) ngay sau VTV.
           GROUP_ORDER = ["VTV", "VTV Go", "Thiết yếu", "HTV", "THVL", "VTVcab",
                          "SCTV", "Địa phương", "Quốc Tế", "Sự Kiện"]
-          # Ten nhom kieu cu (trong tv44.m3u hien tai, goc SuperOK) -> xep vao cung o
-          GROUP_ALIAS = {"kênhquốctế": "Quốc Tế", "sựkiệntv360": "Sự Kiện", "tv360events": "Sự Kiện"}
+          # Ten nhom dong nghia (kieu SuperOK trong tv44 cu) -> nhom chuan 4note
+          GROUP_ALIAS = {"kênhquốctế": "Quốc Tế"}
 
           def norm(s):
               return "".join(ch for ch in s.lower() if ch.isalnum())
 
-          RANK = {norm(g): i for i, g in enumerate(GROUP_ORDER)}
+          CANON = {norm(g): g for g in GROUP_ORDER}
+          RANK = {g: i for i, g in enumerate(GROUP_ORDER)}
 
-          def rank_of(group):
+          def canon(group):
               n = norm(group)
-              if n in RANK:
-                  return RANK[n]
-              if n in GROUP_ALIAS:
-                  return RANK[norm(GROUP_ALIAS[n])]
-              return len(RANK)  # nhom la (kenh cu giu lai) -> xep cuoi
+              if n in CANON:
+                  return CANON[n]
+              return GROUP_ALIAS.get(n)  # None = nhom khong co trong nguon 4note
 
           def parse(text):
               header = None
@@ -77,6 +77,16 @@ jobs:
                       elif line.startswith("#"):
                           cur["lines"].append(line)
               return header, [e for e in entries if e["url"]]
+
+          def set_group(entry, name):
+              line = entry["lines"][0]
+              if 'group-title="' in line:
+                  line = re.sub(r'group-title="[^"]*"', 'group-title="' + name + '"', line, count=1)
+              else:
+                  idx = line.rfind(",")
+                  line = line[:idx] + ' group-title="' + name + '"' + line[idx:]
+              entry["lines"][0] = line
+              entry["group"] = name
 
           def playable_44(entry):
               # H&M-TV 4.4 chi phat HLS khong DRM: loai DASH (.mpd/manifest mpd) + ClearKey
@@ -113,18 +123,30 @@ jobs:
                   f.write(src_text)
 
           src_header, src_entries = parse(src_text)
-          wanted = {norm(g) for g in GROUP_ORDER} - {norm("VTV Go")}
-          picked = [e for e in src_entries if norm(e["group"]) in wanted]
-          print(f"4note thuoc cac nhom da chon: {len(picked)} kenh")
+          picked = []
+          skipped_groups = {}
+          for e in src_entries:
+              c = canon(e["group"])
+              if c is None or c == "VTV Go":
+                  skipped_groups[e["group"]] = skipped_groups.get(e["group"], 0) + 1
+                  continue
+              set_group(e, c)
+              picked.append(e)
+          print(f"4note thuoc cac nhom chuan: {len(picked)} kenh")
+          if skipped_groups:
+              print(f"Nhom trong nguon 4note KHONG nam trong cau truc (bo qua): {skipped_groups}")
 
           # --- 2) VTV Go tu full.m3u ---
           vtvgo = []
           if os.path.exists(FULL):
               _, full_entries = parse(open(FULL, encoding="utf-8").read())
-              vtvgo = [e for e in full_entries if norm(e["group"]) == norm("VTV Go")]
+              for e in full_entries:
+                  if canon(e["group"]) == "VTV Go":
+                      set_group(e, "VTV Go")
+                      vtvgo.append(e)
           print(f"VTV Go tu full.m3u: {len(vtvgo)} kenh")
 
-          # --- 3) Hop nhat + giu lai kenh cu (khong mat kenh), chi loc dinh dang 4.4 ---
+          # --- 3) Hop nhat: nguon la chinh; kenh cu chi gop vao khi TRUNG nhom chuan ---
           merged = []
           seen = set()
           for e in picked + vtvgo:
@@ -132,24 +154,31 @@ jobs:
                   continue
               seen.add(e["url"])
               merged.append(e)
+          floor = len(merged)  # muc san: khong bao gio duoc it hon so kenh tu nguon + VTV Go
 
-          old_count = 0
+          folded = 0
+          dropped = {}
           if os.path.exists(OLD):
               _, old_entries = parse(open(OLD, encoding="utf-8").read())
-              old_count = len(old_entries)
-              kept_old = 0
               for e in old_entries:
+                  c = canon(e["group"])
+                  if c is None:
+                      dropped[e["group"]] = dropped.get(e["group"], 0) + 1
+                      continue
                   if e["url"] in seen or not playable_44(e):
                       continue
+                  set_group(e, c)
                   seen.add(e["url"])
                   merged.append(e)
-                  kept_old += 1
-              print(f"Giu lai tu tv44 cu: {kept_old} kenh (tong cu {old_count})")
+                  folded += 1
+              print(f"Gop them tu tv44 cu (trung nhom chuan): {folded} kenh")
+              if dropped:
+                  print(f"Kenh cu khong thuoc nhom 4note (khong dua vao tv44, van con trong full.m3u/output.m3u): {dropped}")
 
-          merged.sort(key=lambda e: rank_of(e["group"]))  # sort on dinh: giu thu tu trong nhom
+          merged.sort(key=lambda e: RANK[e["group"]])  # sort on dinh: giu thu tu trong nhom
 
-          if len(merged) < old_count:
-              print(f"CANH BAO: ket qua {len(merged)} < so kenh cu {old_count} - dung lai de khong mat kenh")
+          if len(merged) < floor or len(merged) < 100:
+              print(f"CANH BAO: ket qua {len(merged)} kenh (san {floor}) - dung lai de khong mat kenh nguon")
               sys.exit(1)
 
           header = src_header or '#EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"'
@@ -166,6 +195,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add tv44.m3u tv44-source.m3u
           git diff --staged --quiet && echo "Khong co thay doi" && exit 0
-          git commit -m "Tu dong cap nhat tv44.m3u (nguon 4note + VTV Go, khong mat kenh)"
+          git commit -m "Tu dong cap nhat tv44.m3u (nhom theo nguon 4note + VTV Go)"
           git pull --rebase origin main
           git push
