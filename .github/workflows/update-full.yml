@@ -1,0 +1,80 @@
+name: Giai ma nguon goc -> full.m3u
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Moi 2 gio, lech 30 phut so voi workflow dong bo input.m3u de tranh trung luc commit
+    - cron: "30 */2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-full
+  cancel-in-progress: false
+
+jobs:
+  full:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cai dat Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Cai dat thu vien giai ma
+        run: pip install pycryptodome
+
+      - name: Tai + giai ma nguon goc (giu nguyen ven, khong loc)
+        run: |
+          python3 - << 'PYEOF'
+          import base64, hashlib, sys, urllib.request
+          from Crypto.Cipher import AES
+
+          TOKEN_HEX = "6d3e633c6838623f6e396b3b6c6a696f3f623c6e3b6b3e6d396338683f6f3b6a623e693c6c396b3f633b68386e3c6d3f6a3e69396f38623b6b3c6e3f6d3e6839"
+          token = bytes(b ^ 0x5A for b in bytes.fromhex(TOKEN_HEX)).decode("utf-8")
+          key = hashlib.sha256(token.encode("utf-8")).digest()
+          PAT_HEX = "3c332b043d0a1a372d6a11361f30173a020110143d380f3f326e1d0b2a332f2f1c316a0911143230"
+          pat = bytes(b ^ 0x5B for b in bytes.fromhex(PAT_HEX)).decode("utf-8")
+
+          def fetch():
+              try:
+                  req = urllib.request.Request("https://tv.ngoibut-cachmang.workers.dev/playlist.enc", headers={"User-Agent": "Mozilla/5.0"})
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return r.read()
+              except Exception as e:
+                  print("Worker loi:", e, "- chuyen sang ENC1")
+              req = urllib.request.Request(
+                  "https://api.github.com/repos/shoshjvn/ENC1/contents/playlist.enc",
+                  headers={"Authorization": f"token {pat}", "User-Agent": "SuperOK", "Accept": "application/vnd.github.raw+json"},
+              )
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return r.read()
+
+          raw = base64.b64decode(fetch().strip())
+          pt = AES.new(key, AES.MODE_CBC, raw[:16]).decrypt(raw[16:])
+          pad = pt[-1]
+          if 1 <= pad <= 16 and pt[-pad:] == bytes([pad]) * pad:
+              pt = pt[:-pad]
+          text = pt.decode("utf-8")
+          n = text.count("#EXTINF")
+          if not text.startswith("#EXTM3U") or n < 100:
+              print(f"Du lieu giai ma bat thuong ({n} kenh) - dung lai, giu nguyen full.m3u cu")
+              sys.exit(1)
+          with open("full.m3u", "w", encoding="utf-8") as f:
+              f.write(text)
+          print(f"OK: full.m3u nguyen ven {n} kenh, {len(text)} ky tu")
+          PYEOF
+
+      - name: Commit full.m3u neu co thay doi
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add full.m3u
+          git diff --staged --quiet && echo "Khong co thay doi" && exit 0
+          git commit -m "Tu dong cap nhat full.m3u (nguon goc nguyen ven)"
+          git pull --rebase origin main
+          git push
