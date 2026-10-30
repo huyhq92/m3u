@@ -172,6 +172,8 @@ jobs:
 
           folded = 0
           dropped = {}
+          merged_names = {chan_name(e) for e in merged}
+          merged_ids = {re.search(r'tvg-id="([^"]*)"', e["lines"][0], re.I).group(1).lower() for e in merged if re.search(r'tvg-id="([^"]*)"', e["lines"][0], re.I)}
           if os.path.exists(OLD):
               _, old_entries = parse(open(OLD, encoding="utf-8").read())
               for e in old_entries:
@@ -179,7 +181,7 @@ jobs:
                   if c is None:
                       dropped[e["group"]] = dropped.get(e["group"], 0) + 1
                       continue
-                  if e["url"] in seen or not playable_44(e):
+                  if e["url"] in seen or chan_name(e) in merged_names or (re.search(r'tvg-id="([^"]*)"', e["lines"][0], re.I) and re.search(r'tvg-id="([^"]*)"', e["lines"][0], re.I).group(1).lower() in merged_ids) or not playable_44(e):
                       continue
                   if c == "Quốc Tế" and chan_name(e) not in QUOCTE_KEEP:
                       dropped["Quốc Tế (ngoài danh sách giữ)"] = dropped.get("Quốc Tế (ngoài danh sách giữ)", 0) + 1
@@ -187,6 +189,7 @@ jobs:
                   set_group(e, c)
                   seen.add(e["url"])
                   merged.append(e)
+                  merged_names.add(chan_name(e))
                   folded += 1
               print(f"Gop them tu tv44 cu (trung nhom chuan): {folded} kenh")
               if dropped:
@@ -245,7 +248,7 @@ jobs:
           
           swapped = 0
           for e in merged:
-              if "freem3u.xyz" in e["url"]:
+              if "freem3u.xyz" in e["url"] or not (any(x in e["url"].lower() for x in ("vnns.net", "dpdns.org", ".php", "kutt.to")) or e["url"].lower().startswith("http://")):
                   continue
               ext = e["lines"][0]
               mt = re.search(r'tvg-id="([^"]*)"', ext, re.I)
