@@ -1,4 +1,4 @@
-name: TV44 - nguon 4note + VTV Go (full.m3u)
+name: TV44 - 4note + VTV Go + freem3u (full/ngvhiem/vmttv)
 
 on:
   workflow_dispatch:
@@ -198,6 +198,72 @@ jobs:
               print(f"CANH BAO: ket qua {len(merged)} kenh (san {floor}) - dung lai de khong mat kenh nguon")
               sys.exit(1)
 
+          # --- 4) Gop link freem3u: kenh nao co link freem3u o nguon khac thi doi sang ---
+          # Thu tu uu tien nguon cho: 4note (src_entries) > full.m3u > ngvhiem > vmttv.
+          # Chi doi URL (+ tuy chon cua link moi neu co); giu nguyen ten/logo/nhom cua kenh.
+          import unicodedata
+          import urllib.request as _rq
+          
+          def _norm_name(n):
+              n = unicodedata.normalize("NFD", n.lower())
+              n = "".join(ch for ch in n if unicodedata.category(ch) != "Mn")
+              n = n.replace("đ", "d")
+              n = re.sub(r"\b(hd|fhd|4k|sd|tv|vn|vietnam)\b", "", n)
+              return "".join(ch for ch in n if ch.isalnum())
+          
+          def _fetch_text(u):
+              try:
+                  req = _rq.Request(u, headers=UA)
+                  with _rq.urlopen(req, timeout=30) as r:
+                      t = r.read().decode("utf-8", errors="replace")
+                  return t if "#EXTINF" in t else None
+              except Exception as e:
+                  print(f"Tai nguon cho freem3u loi ({u}): {e}")
+                  return None
+          
+          donor_by_key = {}
+          def _add_donors(entries, tag):
+              n0 = len(donor_by_key)
+              for de in entries:
+                  if "freem3u.xyz" not in de["url"] or not playable_44(de):
+                      continue
+                  ext = de["lines"][0]
+                  mt = re.search(r'tvg-id="([^"]*)"', ext, re.I)
+                  if mt and mt.group(1).strip():
+                      donor_by_key.setdefault("id:" + mt.group(1).strip().lower(), de)
+                  donor_by_key.setdefault("nm:" + _norm_name(chan_name(de)), de)
+              print(f"Nguon cho {tag}: tong khoa kenh freem3u = {len(donor_by_key)} (truoc {n0})")
+          
+          _add_donors(src_entries, "4note")
+          if os.path.exists(FULL):
+              _add_donors(parse(open(FULL, encoding="utf-8").read())[1], "full.m3u")
+          for _u, _tag in [("https://raw.githubusercontent.com/ngvhiem/IPTV/refs/heads/main/IPTV.m3u", "ngvhiem"),
+                           ("https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv", "vmttv")]:
+              _t = _fetch_text(_u)
+              if _t:
+                  _add_donors(parse(_t)[1], _tag)
+          
+          swapped = 0
+          for e in merged:
+              if "freem3u.xyz" in e["url"]:
+                  continue
+              ext = e["lines"][0]
+              mt = re.search(r'tvg-id="([^"]*)"', ext, re.I)
+              donor = None
+              if mt and mt.group(1).strip():
+                  donor = donor_by_key.get("id:" + mt.group(1).strip().lower())
+              if donor is None:
+                  donor = donor_by_key.get("nm:" + _norm_name(chan_name(e)))
+              if donor is None:
+                  continue
+              donor_opts = [l for l in donor["lines"][1:] if l.startswith("#")]
+              own_opts = [l for l in e["lines"][1:] if l.startswith("#")]
+              e["lines"] = [ext] + (donor_opts if donor_opts else own_opts) + [donor["url"]]
+              e["url"] = donor["url"]
+              swapped += 1
+          free_total = sum(1 for e in merged if "freem3u.xyz" in e["url"])
+          print(f"Da doi sang freem3u: {swapped} kenh | tong kenh freem3u trong tv44: {free_total}/{len(merged)}")
+          
           header = src_header or '#EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"'
           with open(OLD, "w", encoding="utf-8") as f:
               f.write(header + "\n")
@@ -214,6 +280,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add tv44.m3u tv44-source.m3u
           git diff --staged --quiet && echo "Khong co thay doi" && exit 0
-          git commit -m "Tu dong cap nhat tv44.m3u (nhom theo nguon 4note + VTV Go)"
+          git commit -m "Tu dong cap nhat tv44.m3u (4note + VTV Go + gop link freem3u)"
           git pull --rebase origin main
           git push
