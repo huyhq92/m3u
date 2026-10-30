@@ -39,12 +39,15 @@ jobs:
           OLD = "tv44.m3u"               # file tv44 hien tai tren repo (de gop kenh cu trung nhom)
           UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
-          # Cau truc nhom cua tv44.m3u = DUNG cac nhom cua nguon 4note (ten + thu tu),
-          # chen them "VTV Go" (lay tu full.m3u) ngay sau VTV.
-          GROUP_ORDER = ["VTV", "VTV Go", "Thiết yếu", "HTV", "THVL", "VTVcab",
+          # Cau truc nhom cua tv44.m3u = cac nhom cua nguon 4note (ten + thu tu),
+          # chen them "VTV Go" (lay tu full.m3u) ngay sau VTV,
+          # va nhom "Thiet yeu" cua nguon duoc GOP LUON vao nhom VTV (Akendu chon).
+          GROUP_ORDER = ["VTV", "VTV Go", "HTV", "THVL", "VTVcab",
                          "SCTV", "Địa phương", "Quốc Tế", "Sự Kiện"]
-          # Ten nhom dong nghia (kieu SuperOK trong tv44 cu) -> nhom chuan 4note
-          GROUP_ALIAS = {"kênhquốctế": "Quốc Tế"}
+          # Ten nhom dong nghia / nhom gop -> nhom chuan
+          GROUP_ALIAS = {"kênhquốctế": "Quốc Tế", "thiếtyếu": "VTV"}
+          # Rieng nhom Quoc Te: chi giu cac kenh nay (Akendu chon), con lai loai bo
+          QUOCTE_KEEP = {"cinema world", "warner tv", "cartoon network", "kix", "vietnam today"}
 
           def norm(s):
               return "".join(ch for ch in s.lower() if ch.isalnum())
@@ -87,6 +90,17 @@ jobs:
                   line = line[:idx] + ' group-title="' + name + '"' + line[idx:]
               entry["lines"][0] = line
               entry["group"] = name
+
+          def chan_name(entry):
+              return entry["lines"][0].rsplit(",", 1)[-1].strip().lower()
+
+          def keep_entry(entry):
+              # Loc dinh dang 4.4 + danh sach giu rieng cho nhom Quoc Te
+              if not playable_44(entry):
+                  return False
+              if entry["group"] == "Quốc Tế" and chan_name(entry) not in QUOCTE_KEEP:
+                  return False
+              return True
 
           def playable_44(entry):
               # H&M-TV 4.4 chi phat HLS khong DRM: loai DASH (.mpd/manifest mpd) + ClearKey
@@ -150,7 +164,7 @@ jobs:
           merged = []
           seen = set()
           for e in picked + vtvgo:
-              if e["url"] in seen or not playable_44(e):
+              if e["url"] in seen or not keep_entry(e):
                   continue
               seen.add(e["url"])
               merged.append(e)
@@ -166,6 +180,9 @@ jobs:
                       dropped[e["group"]] = dropped.get(e["group"], 0) + 1
                       continue
                   if e["url"] in seen or not playable_44(e):
+                      continue
+                  if c == "Quốc Tế" and chan_name(e) not in QUOCTE_KEEP:
+                      dropped["Quốc Tế (ngoài danh sách giữ)"] = dropped.get("Quốc Tế (ngoài danh sách giữ)", 0) + 1
                       continue
                   set_group(e, c)
                   seen.add(e["url"])
@@ -186,6 +203,8 @@ jobs:
               f.write(header + "\n")
               for e in merged:
                   f.write("\n".join(e["lines"]) + "\n")
+          qt_names = [chan_name(e) for e in merged if e["group"] == "Quốc Tế"]
+          print(f"Quoc Te giu lai ({len(qt_names)}): {qt_names}")
           print(f"Da ghi tv44.m3u: {len(merged)} kenh")
           PYEOF
 
