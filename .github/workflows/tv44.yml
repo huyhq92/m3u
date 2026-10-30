@@ -273,8 +273,8 @@ jobs:
           _pair = (e["url"], chan_name(e))
           if _pair in _seen_pair:
           continue
-        _seen_pair.add(_pair)
-        _deduped.append(e)
+  _seen_pair.add(_pair)
+  _deduped.append(e)
       print(f"Loai dong trung (URL+ten): {len(merged) - len(_deduped)}")
       merged = _deduped
       
