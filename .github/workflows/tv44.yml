@@ -263,6 +263,20 @@ jobs:
               swapped += 1
           free_total = sum(1 for e in merged if "freem3u.xyz" in e["url"])
           print(f"Da doi sang freem3u: {swapped} kenh | tong kenh freem3u trong tv44: {free_total}/{len(merged)}")
+                    # Chong trung sau doi link: cac dong gop-tu-cu/fold-in co the trung het
+                              # (cung URL + cung ten kenh) voi dong nguon sau khi doi sang freem3u.
+                                        # Bo ban sao, giu dong dau tien (dong cua nguon). Khong dedupe thi moi
+                                                  # lan chay workflow danh sach lai phong to dan.
+                                                            _seen_pair = set()
+                                                                      _deduped = []
+                                                                                for e in merged:
+                                                                                _pair = (e["url"], chan_name(e))
+                                                                                if _pair in _seen_pair:
+                                                                                continue
+                                                                              _seen_pair.add(_pair)
+                                                                              _deduped.append(e)
+                                                                            print(f"Loai dong trung (URL+ten): {len(merged) - len(_deduped)}")
+                                                                            merged = _deduped
           
           header = src_header or '#EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"'
           with open(OLD, "w", encoding="utf-8") as f:
