@@ -1,0 +1,151 @@
+#EXTM3U x-tvg-url="https://lichphatsong.io.vn/epgc.xml"
+#EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/1.png" group-title="VTV",VTV1
+https://dethich.pw/vtv1/index.m3u8
+#EXTINF:-1 tvg-id="vtv2hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/2.png" group-title="VTV",VTV2
+https://dethich.pw/vtv2/index.m3u8
+#EXTINF:-1 tvg-id="vtv3hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/3.png" group-title="VTV",VTV3
+https://dethich.pw/vtv3/index.m3u8
+#EXTINF:-1 tvg-id="vtv4hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/4.png" group-title="VTV",VTV4
+https://dethich.pw/vtv4/index.m3u8
+#EXTINF:-1 tvg-id="vtv5hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/5.png" group-title="VTV",VTV5
+https://dethich.pw/vtv5/index.m3u8
+#EXTINF:-1 tvg-id="vtv5hdtnb" tvg-logo="https://r2.epg.io.vn/2026-09-17/6.png" group-title="VTV",VTV5 Tây Nam Bộ
+https://dethich.pw/vtv5tnb/index.m3u8
+#EXTINF:-1 tvg-id="vtv5hdtn" tvg-logo="https://r2.epg.io.vn/2026-09-17/7.png" group-title="VTV",VTV5 Tây Nguyên
+https://dethich.pw/vtv5tn/index.m3u8
+#EXTINF:-1 tvg-id="vtv6hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/8.png" group-title="VTV",VTV6
+https://dethich.pw/vtv6/index.m3u8
+#EXTINF:-1 tvg-id="vtv7hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/9.png" group-title="VTV",VTV7
+https://dethich.pw/vtv7/index.m3u8
+#EXTINF:-1 tvg-id="vtv8hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/10.png" group-title="VTV",VTV8
+https://dethich.pw/vtv8/index.m3u8
+#EXTINF:-1 tvg-id="vtv9hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/11.png" group-title="VTV",VTV9
+https://dethich.pw/vtv9/index.m3u8
+#EXTINF:-1 tvg-id="vtv10hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/12.png" group-title="VTV",VTV10
+https://dethich.pw/vtv10/index.m3u8
+#EXTINF:-1 tvg-id="htv1" tvg-logo="https://r2.epg.io.vn/2026-09-17/34.png" group-title="HTV",HTV1
+https://dethich.pw/htv1/index.m3u8
+#EXTINF:-1 tvg-id="htv2hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/35.png" group-title="HTV",HTV2 - Vie Channel
+https://dethich.pw/htv2/index.m3u8
+#EXTINF:-1 tvg-id="htv3" tvg-logo="https://r2.epg.io.vn/2026-09-17/36.png" group-title="HTV",HTV3
+https://dethich.pw/htv3/index.m3u8
+#EXTINF:-1 tvg-id="htv4" tvg-logo="https://r2.epg.io.vn/2026-09-17/37.png" group-title="HTV",HTV4
+https://dethich.pw/htv4/index.m3u8
+#EXTINF:-1 tvg-id="htv5" tvg-logo="https://r2.epg.io.vn/2026-09-17/38.png" group-title="HTV",HTV5
+https://dethich.pw/htv5/index.m3u8
+#EXTINF:-1 tvg-id="htv7hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/39.png" group-title="HTV",HTV7
+https://dethich.pw/htv7/index.m3u8
+#EXTINF:-1 tvg-id="htv9hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/40.png" group-title="HTV",HTV9
+https://dethich.pw/htv9/index.m3u8
+#EXTINF:-1 tvg-id="htvthethaohd" tvg-logo="https://r2.epg.io.vn/2026-09-17/41.png" group-title="HTV",HTV Thể Thao
+https://dethich.pw/htvthethao/index.m3u8
+#EXTINF:-1 tvg-id="htvcthuanviet" tvg-logo="https://r2.epg.io.vn/2026-09-17/42.png" group-title="HTV",HTVC Thuần Việt
+https://dethich.pw/htvcthuanviet/index.m3u8
+#EXTINF:-1 tvg-id="htvcgiadinhhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/43.png" group-title="HTV",HTVC Gia Đình
+https://dethich.pw/htvcgiadinh/index.m3u8
+#EXTINF:-1 tvg-id="htvcphunuhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/44.png" group-title="HTV",HTVC Phụ Nữ
+https://dethich.pw/htvcphunu/index.m3u8
+#EXTINF:-1 tvg-id="htvcphimhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/45.png" group-title="HTV",HTVC Phim
+https://dethich.pw/htvcphim/index.m3u8
+#EXTINF:-1 tvg-id="htvccanhachd" tvg-logo="https://r2.epg.io.vn/2026-09-17/46.png" group-title="HTV",HTVC Ca Nhạc
+https://dethich.pw/htvccanhac/index.m3u8
+#EXTINF:-1 tvg-id="htvcdulichhd" tvg-logo="https://r2.epg.io.vn/2026-09-17/47.png" group-title="HTV",HTVC Du Lịch & Cuộc Sống
+https://dethich.pw/htvcdulich/index.m3u8
+#EXTINF:-1 tvg-id="htvcplushd" tvg-logo="https://r2.epg.io.vn/2026-09-17/48.png" group-title="HTV",HTVC Plus
+https://dethich.pw/htvcplus/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong1hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/74.png" group-title="THVL",Vĩnh Long 1
+https://dethich.pw/thvl1/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong2hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/75.png" group-title="THVL",Vĩnh Long 2
+https://dethich.pw/thvl2/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong3hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/76.png" group-title="THVL",Vĩnh Long 3
+https://dethich.pw/thvl3/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong4hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/77.png" group-title="THVL",Vĩnh Long 4
+https://dethich.pw/thvl4/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong5hd" tvg-logo="https://r2.epg.io.vn/2026-09-17/78.png" group-title="THVL",Vĩnh Long 5
+https://dethich.pw/thvl5/index.m3u8
+#EXTINF:-1 tvg-id="bacninh" tvg-logo="https://r2.epg.io.vn/2026-09-17/82.png" group-title="Địa phương",Bắc Ninh
+https://dethich.pw/bacninh/index.m3u8
+#EXTINF:-1 tvg-id="cantho1" tvg-logo="https://r2.epg.io.vn/2026-09-17/83.png" group-title="Địa phương",Cần Thơ 1
+https://dethich.pw/cantho1/index.m3u8
+#EXTINF:-1 tvg-id="cantho2" tvg-logo="https://r2.epg.io.vn/2026-09-17/84.png" group-title="Địa phương",Cần Thơ 2
+https://dethich.pw/cantho2/index.m3u8
+#EXTINF:-1 tvg-id="cantho3" tvg-logo="https://r2.epg.io.vn/2026-09-17/85.png" group-title="Địa phương",Cần Thơ 3
+https://dethich.pw/cantho3/index.m3u8
+#EXTINF:-1 tvg-id="camau" tvg-logo="https://r2.epg.io.vn/2026-09-17/86.png" group-title="Địa phương",Cà Mau
+https://dethich.pw/camau/index.m3u8
+#EXTINF:-1 tvg-id="daklak" tvg-logo="https://r2.epg.io.vn/2026-09-17/88.png" group-title="Địa phương",Đắk Lắk
+https://dethich.pw/daklak/index.m3u8
+#EXTINF:-1 tvg-id="dienbien" tvg-logo="https://r2.epg.io.vn/2026-09-17/89.png" group-title="Địa phương",Điện Biên
+https://dethich.pw/dienbien/index.m3u8
+#EXTINF:-1 tvg-id="danang1" tvg-logo="https://r2.epg.io.vn/2026-09-17/90.png" group-title="Địa phương",Đà Nẵng 1
+https://dethich.pw/danang1/index.m3u8
+#EXTINF:-1 tvg-id="danang2" tvg-logo="https://r2.epg.io.vn/2026-09-17/91.png" group-title="Địa phương",Đà Nẵng 2
+https://dethich.pw/danang2/index.m3u8
+#EXTINF:-1 tvg-id="dongnai1" tvg-logo="https://r2.epg.io.vn/2026-09-17/92.png" group-title="Địa phương",Đồng Nai 1
+https://dethich.pw/dongnai1/index.m3u8
+#EXTINF:-1 tvg-id="dongnai2" tvg-logo="https://r2.epg.io.vn/2026-09-17/93.png" group-title="Địa phương",Đồng Nai 2
+https://dethich.pw/dongnai2/index.m3u8
+#EXTINF:-1 tvg-id="dongnai3" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ĐNNRTV3.png" group-title="Địa phương",Đồng Nai 3
+https://dethich.pw/dongnai3/index.m3u8
+#EXTINF:-1 tvg-id="dongthap1" tvg-logo="https://r2.epg.io.vn/2026-09-17/95.png" group-title="Địa phương",Đồng Tháp 1
+https://dethich.pw/dongthap1/index.m3u8
+#EXTINF:-1 tvg-id="dongthap2" tvg-logo="https://r2.epg.io.vn/2026-09-17/96.png" group-title="Địa phương",Đồng Tháp 2 - Miền Tây
+https://dethich.pw/dongthap2/index.m3u8
+#EXTINF:-1 tvg-id="gialai" tvg-logo="https://r2.epg.io.vn/2026-09-17/97.png" group-title="Địa phương",Gia Lai
+https://dethich.pw/gialai/index.m3u8
+#EXTINF:-1 tvg-id="hanoi1" tvg-logo="https://r2.epg.io.vn/2026-09-17/98.png" group-title="Địa phương",Hà Nội 1
+https://dethich.pw/hanoi1/index.m3u8
+#EXTINF:-1 tvg-id="hanoi2" tvg-logo="https://r2.epg.io.vn/2026-09-17/99.png" group-title="Địa phương",Hà Nội 2
+https://dethich.pw/hanoi2/index.m3u8
+#EXTINF:-1 tvg-id="hatinh" tvg-logo="https://r2.epg.io.vn/2026-09-17/100.png" group-title="Địa phương",Hà Tĩnh
+https://dethich.pw/hatinh/index.m3u8
+#EXTINF:-1 tvg-id="haiphong" tvg-logo="https://r2.epg.io.vn/2026-09-17/101.png" group-title="Địa phương",Hải Phòng
+https://dethich.pw/haiphong/index.m3u8
+#EXTINF:-1 tvg-id="haiphong3" tvg-logo="https://r2.epg.io.vn/2026-09-17/102.png" group-title="Địa phương",Hải Phòng 3
+https://dethich.pw/haiphong3/index.m3u8
+#EXTINF:-1 tvg-id="hue" tvg-logo="https://r2.epg.io.vn/2026-09-17/103.png" group-title="Địa phương",Huế
+https://dethich.pw/hue/index.m3u8
+#EXTINF:-1 tvg-id="hungyen" tvg-logo="https://r2.epg.io.vn/2026-09-17/104.png" group-title="Địa phương",Hưng Yên
+https://dethich.pw/hungyen/index.m3u8
+#EXTINF:-1 tvg-id="khanhhoa" tvg-logo="https://r2.epg.io.vn/2026-09-17/105.png" group-title="Địa phương",Khánh Hoà
+https://dethich.pw/khanhhoa/index.m3u8
+#EXTINF:-1 tvg-id="khanhhoa1" tvg-logo="https://r2.epg.io.vn/2026-09-17/106.png" group-title="Địa phương",Khánh Hoà 1
+https://dethich.pw/khanhhoa1/index.m3u8
+#EXTINF:-1 tvg-id="lamdong1" tvg-logo="https://r2.epg.io.vn/2026-09-17/108.png" group-title="Địa phương",Lâm Đồng 1
+https://dethich.pw/lamdong1/index.m3u8
+#EXTINF:-1 tvg-id="lamdong2" tvg-logo="https://r2.epg.io.vn/2026-09-17/109.png" group-title="Địa phương",Lâm Đồng 2
+https://dethich.pw/lamdong2/index.m3u8
+#EXTINF:-1 tvg-id="langson" tvg-logo="https://r2.epg.io.vn/2026-09-17/110.png" group-title="Địa phương",Lạng Sơn
+https://dethich.pw/langson/index.m3u8
+#EXTINF:-1 tvg-id="nghean" tvg-logo="https://r2.epg.io.vn/2026-09-17/112.png" group-title="Địa phương",Nghệ An
+https://dethich.pw/nghean/index.m3u8
+#EXTINF:-1 tvg-id="ninhbinh" tvg-logo="https://r2.epg.io.vn/2026-09-17/113.png" group-title="Địa phương",Ninh Bình
+https://dethich.pw/ninhbinh/index.m3u8
+#EXTINF:-1 tvg-id="phutho" tvg-logo="https://r2.epg.io.vn/2026-09-17/114.png" group-title="Địa phương",Phú Thọ
+https://dethich.pw/phutho/index.m3u8
+#EXTINF:-1 tvg-id="quangngai" tvg-logo="https://r2.epg.io.vn/2026-09-17/115.png" group-title="Địa phương",Quảng Ngãi 1
+https://dethich.pw/quangngai1/index.m3u8
+#EXTINF:-1 tvg-id="quangngai2" tvg-logo="https://r2.epg.io.vn/2026-09-17/116.png" group-title="Địa phương",Quảng Ngãi 2
+https://dethich.pw/quangngai2/index.m3u8
+#EXTINF:-1 tvg-id="quangninh1" tvg-logo="https://r2.epg.io.vn/2026-09-17/117.png" group-title="Địa phương",Quảng Ninh 1
+https://dethich.pw/quangninh1/index.m3u8
+#EXTINF:-1 tvg-id="quangninh3" tvg-logo="https://r2.epg.io.vn/2026-09-17/118.png" group-title="Địa phương",Quảng Ninh 3
+https://dethich.pw/quangninh3/index.m3u8
+#EXTINF:-1 tvg-id="sonla" tvg-logo="https://r2.epg.io.vn/2026-09-17/120.png" group-title="Địa phương",Sơn La
+https://dethich.pw/sonla/index.m3u8
+#EXTINF:-1 tvg-id="tayninh1" tvg-logo="https://r2.epg.io.vn/2026-09-17/121.png" group-title="Địa phương",Tây Ninh
+https://dethich.pw/tayninh/index.m3u8
+#EXTINF:-1 tvg-id="thainguyen" tvg-logo="https://r2.epg.io.vn/2026-09-17/122.png" group-title="Địa phương",Thái Nguyên
+https://dethich.pw/thainguyen/index.m3u8
+#EXTINF:-1 tvg-id="thanhhoa" tvg-logo="https://r2.epg.io.vn/2026-09-17/123.png" group-title="Địa phương",Thanh Hoá
+https://dethich.pw/thanhhoa/index.m3u8
+#EXTINF:-1 tvg-id="tuyenquang" tvg-logo="https://r2.epg.io.vn/2026-09-17/124.png" group-title="Địa phương",Tuyên Quang
+https://dethich.pw/tuyenquang/index.m3u8
+#EXTINF:-1 tvg-id="vietnamtoday" tvg-logo="https://r2.epg.io.vn/2026-09-17/13.png" group-title="Quốc Tế",Vietnam Today
+https://dethich.pw/vietnamtoday/index.m3u8
+#EXTINF:-1 tvg-id="dw" tvg-logo="https://r2.epg.io.vn/2026-09-17/162.png" group-title="Quốc Tế",DW
+https://dethich.pw/dw/index.m3u8
+#EXTINF:-1 tvg-id="nhkworld" tvg-logo="https://r2.epg.io.vn/2026-09-17/159.png" group-title="Quốc Tế",NHK World
+https://dethich.pw/nhk/index.m3u8
+#EXTINF:-1 tvg-id="kbsworld" tvg-logo="https://r2.epg.io.vn/2026-09-17/165.png" group-title="Quốc Tế",KBS World
+https://dethich.pw/kbsworld/index.m3u8
