@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://lichphatsong.io.vn/epgc.xml"
-#EXTINF:-1 tvg-id="update_info" tvg-name="(557) Updated 23:30 05/11/2026" tvg-logo="https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.png" group-title="👌 UPDATE",(557) Updated 23:30 05/11/2026
+#EXTINF:-1 tvg-id="update_info" tvg-name="(556) Updated 06:40 06/11/2026" tvg-logo="https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.png" group-title="👌 UPDATE",(556) Updated 06:40 06/11/2026
 #KODIPROP:inputstream.adaptive.manifest_type=mp4
 https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.mp4
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/1.png" group-title="🌟VTV & VTVCab🌟" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/VTV1_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",VTV1
@@ -1952,16 +1952,70 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fd
 #EXTINF:-1 tvg-id="99991627" tvg-logo="https://image.xumo.com/v1/channels/channel/99991627/168x168.png?type=color_onBlack" group-title="🌟VIP SPORTS🌟", Billiard TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://dbrb49pjoymg4.cloudfront.net/10001/99991627/hls/billi.m3u8?ads.xumo_channelId=99991627&ads._fw_ifa_type=&ads._fw_did=da4213b8-f5f4-4df9-ba7f-03644e345a25&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=TripleBMediaBilliard&ads.csid=xumo_web_TripleBMediaBilliard_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=2728&ads.xumo_contentName=TripleBMediaBilliard&ads.xumo_providerId=2728&ads.xumo_providerName=TripleBMediaBilliard&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99991627&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=/99991627/hls/billi.m3u8?ads.xumo_channelId=99991627&ads._fw_ifa_type=&ads._fw_did=da4213b8-f5f4-4df9-ba7f-03644e345a25&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=TripleBMediaBilliard&ads.csid=xumo_web_TripleBMediaBilliard_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=2728&ads.xumo_contentName=TripleBMediaBilliard&ads.xumo_providerId=2728&ads.xumo_providerName=TripleBMediaBilliard&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99991627&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",AFC > BG PATHUM VS TAI PO FC SUPER OK
-#EXTVLCOPT:referrer=https://dcf.cuu18c.net/
-https://tg0q0grauqmtofaauqmt1gy41475uqp3ukatqqi4scau3ci4nha5q.100ycdn.com/wsss5b.uufbyet.cn/sat/cn221/playlist.m3u8?k=bc1901ec01898ecfaeac3295527d9ef5&t=6AEC5A0C&x=dcf.cuu18c.net_510869&wsSession=ec325ca265e990d335dad671-179387444541452&wsIPSercert=6f622cd4360bde5079dee2e8ad474e72&wsBindIP=2&wsserid=1168235948324382342
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",AFC> KUCHING VS GANGWON FC SUPER OK
-#EXTVLCOPT:referer=https://dcf.cuu18c.net/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://bss7b.fcefce.cn/sat/cn231/playlist.m3u8?sign=3843dd2742c831f4529b9b116b0e8d0d&t=1793876343&x=dcf.cuu18c.net_510869
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",AFC > LION CITY VS ADELAIDE UNITED SUPER OK
-#EXTVLCOPT:referrer=https://dcf.cuu18c.net/
-https://tg0q1grauqmtofaauqmt1gy314a53grasnmugc3wge3mnqwzgg5o.100ycdn.com/cy11a.ffhdebu.cn/sat/cn241/playlist.m3u8?sign=4e1b501cf55d871387770cc6e5d533ef&t=6AEC7C09&x=dcf.cuu18c.net_510869&wsSession=65f01a0781ef8e1747df9a79-179388315292513&wsIPSercert=6f622cd4360bde5079dee2e8ad474e72&wsBindIP=2&wsserid=1168235948330673910
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 1 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 2 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 3 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 4 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > AZ Alkmaar vs Juventus
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grauqmtofaauomtz8yssg6jtgfo1h3ugpb1gkauif3tsh.100ycdn.com/cy11a.ffhdebu.cn/sat/vn131/playlist.m3u8?sign=47440eecdc55bb309489cde9b7ea3b87&t=6AECEABA&x=dcf.cuu18c.net_510869&wsSession=ed4d0eb121052877af57cba4-179391148441924&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168235375235477938
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Leverkusen vs Marseille
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grzdkpbqgrzdncjzfi5zgh5ugitnh7mic3t813mwf3tsh.100ycdn.com/wsss5b.uufbyet.cn/sat/vn051/playlist.m3u8?k=0d85e0526b4ceeeb8f19b725e360d89c&t=6AECF3F3&x=dcf.cuu18c.net_510869&wsSession=5613a8b3e1a92fcd4ec9c199-179391384379456&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168215489706069317
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Benfica vs Lech Poznan
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q6geauymt1go41hpjofa3dyptpcphuncmbf3ugc4drcit8kmudpa.100ycdn.com/cy11a.ffhdebu.cn/sat/cn411/playlist.m3u8?sign=1cc55030d2c6a8ca89e9fa21bb5466fd&t=6AECEDEC&x=dcf.cuu18c.net_510869&wsSession=ae3236e129af0859032c822d-179391230088693&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1172662689757036152
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Celta Vigo vs Union St.Gilloise
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q6geauymt1go41hpjofa3dyptpcphuncmbf3ugc4drcit8kmudpa.100ycdn.com/cy11a.ffhdebu.cn/sat/cn351/playlist.m3u8?sign=719d15fbb7f3983f1c6d7bd1ebe3980d&t=6AECEE66&x=dcf.cuu18c.net_510869&wsSession=ae3236e129af0859032c822d-179391242302616&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1172662689757036152
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Celtic vs Beşiktaş
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://bss6a.aakfqas.com/sat/vn041/playlist.m3u8?sign=f30b64703821899ca88d10e088da98bb&t=1793912884&x=dcf.cuu18c.net_510869&_t=1793912884190
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Hapoel Beer Sheva vs OFI Crete
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://bss6a.aakfqas.com/sat/vn041/playlist.m3u8?sign=b15461117b460ee82fab2e0c7cc702c6&t=1793912980&x=dcf.cuu18c.net_510869&_t=1793912979918
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Sturm Graz vs NK Celje
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grauqmtofaauomtz8yssg6jtgfo1h3ugpb1gkauif3tsh.100ycdn.com/cy11a.ffhdebu.cn/sat/cn431/playlist.m3u8?sign=6e944d8af6a81ae7388965ae79ae7c7d&t=6AECF0FF&x=dcf.cuu18c.net_510869&wsSession=f34b3953e28bc971e264133f-179391308793746&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168235375238623738
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Sunderland vs Dinamo Zagreb
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grauqmtofaauomtz8yssg6jtgfo1h3ugpb1gkauif3tsh.100ycdn.com/cy11a.ffhdebu.cn/sat/vn081/playlist.m3u8?sign=5c405e7acdb5e52fefc7a9ec68a82079&t=6AECF150&x=dcf.cuu18c.net_510869&wsSession=f34b3953e28bc971e264133f-179391316868552&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168235375238623738
 #EXTINF:-1 tvg-id="tv360plus1" group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png", TV360+1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -2204,114 +2258,24 @@ https://livevliatmcdw.seenow.vn/live/data8/SKSS5/Live_DASHDRM/SKSS5.mpd
 https://livevliatmcdw.seenow.vn/live/data8/SKSS6/Live_DASHDRM/SKSS6.mpd
 #EXTINF:-1 group-title="Sự Kiện VTVPrime" tvg-logo="https://vtvprime.vn/sideLogoBig.png", VTVPrime 188
 https://qipmgzougxliv.vcdn.cloud/app/stream/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/National%20Bank%20of%20Egypt%20Vs%20Port%20Fouad.jpg" group-title="Football", National Bank of Egypt Vs Port Fouad - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.55/hls/RHHHAAAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/National%20Bank%20of%20Egypt%20Vs%20Port%20Fouad.jpg" group-title="Football", National Bank of Egypt Vs Port Fouad - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.55/hls/RHHHAAAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bhutan%20Vs%20Bangladesh.jpg" group-title="Football", Bhutan Vs Bangladesh - BTV LIVE HD
-#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
-https://live.btvlive.gov.bd/live/1084043f-90ba-4ee9-8651-f47747716c9f/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bhutan%20Vs%20Bangladesh.jpg" group-title="Football", Bhutan Vs Bangladesh - HD QUALITY
-https://playztv-apps.pages.dev/ptv-sports/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bhutan%20Vs%20Bangladesh.jpg" group-title="Football", Bhutan Vs Bangladesh - T SPORTS HD
-https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bhutan%20Vs%20Bangladesh.jpg" group-title="Football", Bhutan Vs Bangladesh - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.55/hls/RHHHAAAAAQQ.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mohun%20Bagan%20Super%20Giant%20Vs%20Odisha%20FC.jpg" group-title="Football", Mohun Bagan Super Giant Vs Odisha FC - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Necaxa%20Vs%20Atlas.jpg" group-title="Football", Necaxa Vs Atlas - FOX DEPORTES FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0018708b148a535ce471118814221bf8:9b44705ad89f7b3e91ccaa9b2f2a2b0f
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - TNT1UK SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Palmeiras%20Vs%20Remo.jpg" group-title="Football", Palmeiras Vs Remo - PREMIER1 SPORTS FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - TNT2UK SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Palmeiras%20Vs%20Remo.jpg" group-title="Football", Palmeiras Vs Remo - SportDigital FussBall
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - TNT3UK SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Palmeiras%20Vs%20Remo.jpg" group-title="Football", Palmeiras Vs Remo - PREMIERER1 FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sydney%20Thunder%20Women%20Vs%20Perth%20Scorchers%20Women.jpg" group-title="Cricket", Sydney Thunder Women Vs Perth Scorchers Women - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b2c92cec93ed53bbc297d9ab55ae4c72:6dfa3680190db85be7659d6faaac5d91
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fqfdmhym1j/out/v1/e07f7042e08e4cc8863b4038fc99a431/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sydney%20Thunder%20Women%20Vs%20Perth%20Scorchers%20Women.jpg" group-title="Cricket", Sydney Thunder Women Vs Perth Scorchers Women - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sydney%20Thunder%20Women%20Vs%20Perth%20Scorchers%20Women.jpg" group-title="Cricket", Sydney Thunder Women Vs Perth Scorchers Women - WILLOW ALT
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b2c92cec93ed53bbc297d9ab55ae4c72:6dfa3680190db85be7659d6faaac5d91
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fqfdmhym1j/out/v1/e07f7042e08e4cc8863b4038fc99a431/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NPL%20Vs%20NPL.jpg" group-title="Cricket", NPL Vs NPL - FANCODE FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NPL%20Vs%20NPL.jpg" group-title="Cricket", NPL Vs NPL - SD SERVER
-http://162.251.160.53:8089/NPLT20/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NPL%20Vs%20NPL.jpg" group-title="Cricket", NPL Vs NPL - FANCODE SD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NPL%20Vs%20NPL.jpg" group-title="Cricket", NPL Vs NPL - FANCODE2 FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NPL%20Vs%20NPL.jpg" group-title="Cricket", NPL Vs NPL - STAR SPORTS HD
-https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NPL%20Vs%20NPL.jpg" group-title="Cricket", NPL Vs NPL - FANCODE (IND)
-#EXTVLCOPT:http-referrer=https://fancode.com/
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
-https://dai-fancode.pages.dev/mumbai/4250355_english_hls_7b5a55758122143_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Afghanistan%20Vs%20Zimbabwe.jpg" group-title="Cricket", Afghanistan Vs Zimbabwe - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=502b22d3cada61e1dd3c24e4dc37b128:edbeec19a62d033903fe6436abfb9fd6
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/owwvfdrvyv/out/v1/f869fa34e09144a7961adf21ce46c323/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Afghanistan%20Vs%20Zimbabwe.jpg" group-title="Cricket", Afghanistan Vs Zimbabwe - WILLOW ALT
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=502b22d3cada61e1dd3c24e4dc37b128:edbeec19a62d033903fe6436abfb9fd6
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/owwvfdrvyv/out/v1/f869fa34e09144a7961adf21ce46c323/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Afghanistan%20Vs%20Zimbabwe.jpg" group-title="Cricket", Afghanistan Vs Zimbabwe - FANCODE2 FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Afghanistan%20Vs%20Zimbabwe.jpg" group-title="Cricket", Afghanistan Vs Zimbabwe - FANCODE1 FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bangladesh%20Under-19%20Vs%20Afghanistan%20Under-19.jpg" group-title="Cricket", Bangladesh Under-19 Vs Afghanistan Under-19 - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a16f4890e1a9a95d009f657f9d6837bb:e6e66c827c8a8c7d212db25ee49652e2
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qyp1du4zue/out/v1/625ab75f4b1e48e49180b189310fde8b/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bangladesh%20Under-19%20Vs%20Afghanistan%20Under-19.jpg" group-title="Cricket", Bangladesh Under-19 Vs Afghanistan Under-19 - SonyLiv PRIME FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=74ea2277355a796a7b81fc5ae0850b8b:9e5fc3413f079d3624873bb524453396
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/asrhszykzd/out/v1/dc6cc8173af4474e8dcd393adb429278/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bangladesh%20Under-19%20Vs%20Afghanistan%20Under-19.jpg" group-title="Cricket", Bangladesh Under-19 Vs Afghanistan Under-19 - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a59f28b25431a5ab1091707c14e6e5b5:0e2b44300a38bd47fbb02e9c687aa2c8
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vqu1w8f6e7/out/v1/f7d7ec07c208491681c1b6f68d0e823f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sri%20Lanka%20Under-19%20Vs%20Malaysia%20Under-19.jpg" group-title="Cricket", Sri Lanka Under-19 Vs Malaysia Under-19 - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sri%20Lanka%20Under-19%20Vs%20Malaysia%20Under-19.jpg" group-title="Cricket", Sri Lanka Under-19 Vs Malaysia Under-19 - SonyLiv PRIME FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Howard%20Bison%20Vs%20South%20Carolina%20State%20Bulldogs.jpg" group-title="American football", Howard Bison Vs South Carolina State Bulldogs - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/GOLF%20EVENTO%20Vs%20GOLF%20EVENTO.jpg" group-title="Other", GOLF EVENTO Vs GOLF EVENTO - Golf Channel - HD
 https://dash3.antik.sk/live/test_golf_channel/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/GOLF%20EVENTO%20Vs%20GOLF%20EVENTO.jpg" group-title="Other", GOLF EVENTO Vs GOLF EVENTO - Golf PGA Baycurrent Classic (USE VPN)
@@ -2386,3 +2350,44 @@ http://193.47.62.44/hls/T777A.m3u8
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
 http://193.47.62.44/hls/T777AA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Islanders%20Vs%20Carolina%20Hurricanes.jpg" group-title="Hockey", New York Islanders Vs Carolina Hurricanes - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Rangers%20Vs%20Philadelphia%20Flyers.jpg" group-title="Hockey", New York Rangers Vs Philadelphia Flyers - PREMIERE2 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Rangers%20Vs%20Philadelphia%20Flyers.jpg" group-title="Hockey", New York Rangers Vs Philadelphia Flyers - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Detroit%20Red%20Wings%20Vs%20Vegas%20Golden%20Knights.jpg" group-title="Hockey", Detroit Red Wings Vs Vegas Golden Knights - TSN3 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Detroit%20Red%20Wings%20Vs%20Vegas%20Golden%20Knights.jpg" group-title="Hockey", Detroit Red Wings Vs Vegas Golden Knights - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Columbus%20Blue%20Jackets%20Vs%20Dallas%20Stars.jpg" group-title="Hockey", Columbus Blue Jackets Vs Dallas Stars - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Jersey%20Devils%20Vs%20St.%20Louis%20Blues.jpg" group-title="Hockey", New Jersey Devils Vs St. Louis Blues - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montr%C3%A9al%20Canadiens%20Vs%20Utah%20Mammoth.jpg" group-title="Hockey", Montréal Canadiens Vs Utah Mammoth - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Pittsburgh%20Penguins%20Vs%20Boston%20Bruins.jpg" group-title="Hockey", Pittsburgh Penguins Vs Boston Bruins - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Tampa%20Bay%20Lightning%20Vs%20Chicago%20Blackhawks.jpg" group-title="Hockey", Tampa Bay Lightning Vs Chicago Blackhawks - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Winnipeg%20Jets%20Vs%20Vancouver%20Canucks.jpg" group-title="Hockey", Winnipeg Jets Vs Vancouver Canucks - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Florida%20Atlantic%20Owls%20Vs%20UTSA%20Roadrunners.jpg" group-title="American football", Florida Atlantic Owls Vs UTSA Roadrunners - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Cruzeiro%20Vs%20Bahia.jpg" group-title="Football", Cruzeiro Vs Bahia - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
