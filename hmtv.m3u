@@ -5,7 +5,7 @@ https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 #EXTINF:-1 tvg-id="vtv6" group-title="Thể thao" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/6.png",VTV6 HD
 #EXTVLCOPT:user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=vtv6
-#EXTINF:-1 tvg-id="htvthethaohd" group-title="Thể thao" tvg-logo="https://vietanhtv.id.vn/logo/htvthethao.png" catchup="default" catchup-days="7" catchup-source="https://livebytatm.vtvprime.vn/live/data8/HTV_THETHAO/Live_DASHDRM/HTV_THETHAO.mpd?startTime=${start}&stopTime=${stop}",HTV Thể Thao HD
+#EXTINF:-1 tvg-id="htvthethaohd" group-title="Thể thao" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htvthethaohd.png" catchup="default" catchup-days="7" catchup-source="https://livebytatm.vtvprime.vn/live/data8/HTV_THETHAO/Live_DASHDRM/HTV_THETHAO.mpd?startTime=${start}&stopTime=${stop}",HTV Thể Thao HD
 #EXTVLCOPT:user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -40,7 +40,7 @@ https://livevlisctcdnw.seenow.vn/mean/BONGDA_HD/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
 https://livebytatm.vtvprime.vn/live/data8/THETHAO_TINTUC_HD/Live_DASHDRM/THETHAO_TINTUC_HD.mpd
-#EXTINF:-1 tvg-id="ongolf" group-title="Thể thao" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONGOLF_150x903_1675158871.webp" catchup="default" catchup-days="2" catchup-source="https://livevliatmcdw.seenow.vn/live/data8/THETHAO_GOLF_HD/Live_DASHDRM/THETHAO_GOLF_HD.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON GOLF
+#EXTINF:-1 tvg-id="ongolf" group-title="Thể thao" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/ongolf.jpg" catchup="default" catchup-days="2" catchup-source="https://livevliatmcdw.seenow.vn/live/data8/THETHAO_GOLF_HD/Live_DASHDRM/THETHAO_GOLF_HD.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON GOLF
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -68,7 +68,7 @@ https://liveatmvng.vtvprime.vn/live/data8/SCTV17/Live_DASHDRM/SCTV17.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=883fe37e69254f0db1a9c8908e5ab56f:8f0762de62f849039420b513068aca40
 https://liveatmvng.vtvprime.vn/live/data8/SCTV22/Live_DASHDRM/SCTV22.mpd
-#EXTINF:-1 tvg-id="spotv1" group-title="Thể thao" tvg-logo="https://www.visionplus.id/images/repository/656/656-LOGO-m.png",SPOTV1
+#EXTINF:-1 tvg-id="spotv1" group-title="Thể thao" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/spotv1.jpg",SPOTV1
 #EXTVLCOPT:user-agent=Dalvik/2.1.0
 #KODIPROP:license_type=widevine
 #KODIPROP:license_key=https://tv.vietanhtv.top/mytv2/key.php
@@ -474,9 +474,13 @@ https://freem3u.xyz/api/live/play.m3u8?vid=182
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
 https://livevlisctcdnw.seenow.vn/mean/BONGDA_HD/manifest.mpd
-#EXTINF:-1 tvg-id="ongolf" group-title="VTVCab" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/ongolf.jpg",ON Golf
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 10.0) AppleWebKit/537.36 (KHTML, like Gecko) 130.0.6723.116/10.0 TV Safari/537.36
-https://vmttv.dpdns.org/tv360/?id=169
+#EXTINF:-1 tvg-id="ongolf" group-title="VTVCab" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/ongolf.jpg" catchup="default" catchup-days="2" catchup-source="https://livevliatmcdw.seenow.vn/live/data8/THETHAO_GOLF_HD/Live_DASHDRM/THETHAO_GOLF_HD.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Golf
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
+https://livevliatmcdw.seenow.vn/live/data8/THETHAO_GOLF_HD/Live_DASHDRM/THETHAO_GOLF_HD.mpd
 #EXTINF:-1 tvg-id="OnHomeShopping" group-title="VTVCab" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/onhomeshopping.png",On HomeShopping
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -521,8 +525,10 @@ https://freem3u.xyz/api/live/play.m3u8?vid=177
 #EXTINF:-1 tvg-id="onviegiaitri" group-title="VTVCab" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/onviegiaitri.jpg",ON Vie Giải Trí
 https://freem3u.xyz/api/live/play.m3u8?vid=180
 #EXTINF:-1 tvg-id="spotv1" group-title="VTVCab" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/spotv1.jpg",SPOTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 10.0) AppleWebKit/537.36 (KHTML, like Gecko) 130.0.6723.116/10.0 TV Safari/537.36
-https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8
+#EXTVLCOPT:user-agent=Dalvik/2.1.0
+#KODIPROP:license_type=widevine
+#KODIPROP:license_key=https://tv.vietanhtv.top/mytv2/key.php
+https://s7484.cdn.mytvnet.vn/pkg20/__cl/gvtsig/vstv587/manifest.mpd
 #EXTINF:-1 tvg-id="youtv" group-title="VTVCab" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/youtv.png",YouTV
 https://freem3u.xyz/api/live/play.m3u8?vid=31
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htv1.png",HTV1
@@ -539,9 +545,13 @@ https://freem3u.xyz/api/live/play.m3u8?vid=151
 https://freem3u.xyz/api/live/play.m3u8?vid=193
 #EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htv9hd.jpg",HTV9
 https://freem3u.xyz/api/live/play.m3u8?vid=194
-#EXTINF:-1 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htvthethaohd.png",HTV Thể Thao
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 10.0) AppleWebKit/537.36 (KHTML, like Gecko) 130.0.6723.116/10.0 TV Safari/537.36
-https://1011154949.vnns.net/CDN-FPT02/HTV-THETHAO-HD-1080p/chunks.m3u8
+#EXTINF:-1 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htvthethaohd.png" catchup="default" catchup-days="7" catchup-source="https://livebytatm.vtvprime.vn/live/data8/HTV_THETHAO/Live_DASHDRM/HTV_THETHAO.mpd?startTime=${start}&stopTime=${stop}",HTV Thể Thao
+#EXTVLCOPT:user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7b4db62fb5424a6eb2908842a8292775:e37c493320374e4aa42679bffb85c742
+https://livebytatm.vtvprime.vn/live/data8/HTV_THETHAO/Live_DASHDRM/HTV_THETHAO.mpd
 #EXTINF:-1 tvg-id="4009e0a06b8eba5abf6be992510a7eac" group-title="HTVC" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htvccanhachd.jpg",HTVC Ca Nhạc
 https://freem3u.xyz/api/live/play.m3u8?vid=14
 #EXTINF:-1 tvg-id="htvcdulichhd" group-title="HTVC" tvg-logo="https://raw.githubusercontent.com/huyhq92/m3u/main/pic/htvcdulichhd.jpg",HTVC Du Lịch
