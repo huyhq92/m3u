@@ -1,5 +1,4 @@
 #EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"
-
 #EXTINF:-1 tvg-logo="https://media.unreel.me/prod/freelivesports/logo/3b9ff291-5825-4cd3-b8f0-5d03a3f1e3c1" tvg-id="Goal TV" group-title="Thể thao",Goal TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
