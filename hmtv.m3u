@@ -68,20 +68,6 @@ https://liveatmvng.vtvprime.vn/live/data8/SCTV17/Live_DASHDRM/SCTV17.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=883fe37e69254f0db1a9c8908e5ab56f:8f0762de62f849039420b513068aca40
 https://liveatmvng.vtvprime.vn/live/data8/SCTV22/Live_DASHDRM/SCTV22.mpd
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/656/656-LOGO-m.png" tvg-id="SPOtv1  🇵🇭" group-title="Thể thao",SPOTV
-#EXTVLCOPT:user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-#EXTVLCOPT:referer=https://cignalplay.com/
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:license_type=clearkey
-#KODIPROP:license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/656/656-LOGO-m.png" tvg-id="SPOtv2  🇵🇭" group-title="Thể thao",SPOTV2
-#EXTVLCOPT:user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-#EXTVLCOPT:referer=https://cignalplay.com/
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:license_type=clearkey
-#KODIPROP:license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 #EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/656/656-LOGO-m.png" tvg-id="spotv1" group-title="Thể thao",SPOTV1
 #EXTVLCOPT:user-agent=Dalvik/2.1.0
 #KODIPROP:license_type=widevine
