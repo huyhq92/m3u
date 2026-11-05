@@ -1350,13 +1350,69 @@ https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a5
 https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8
 #EXTINF:-1 group-title="🎵 Nghe nhạc" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/picture/main/nkl.png", ZingRadio 12 - Nhạc không lời
 https://multi-playlist-zmp3.zmdcdn.me/4WEUr_3aq8I/zhls/playback-realtime/1f36d59ae9df008159ce/index.m3u8
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",AFC > BG PATHUM VS TAI PO FC SUPER OK
-#EXTVLCOPT:referrer=https://dcf.cuu18c.net/
-https://tg0q0grauqmtofaauqmt1gy41475uqp3ukatqqi4scau3ci4nha5q.100ycdn.com/wsss5b.uufbyet.cn/sat/cn221/playlist.m3u8?k=bc1901ec01898ecfaeac3295527d9ef5&t=6AEC5A0C&x=dcf.cuu18c.net_510869&wsSession=ec325ca265e990d335dad671-179387444541452&wsIPSercert=6f622cd4360bde5079dee2e8ad474e72&wsBindIP=2&wsserid=1168235948324382342
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",AFC> KUCHING VS GANGWON FC SUPER OK
-#EXTVLCOPT:referer=https://dcf.cuu18c.net/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://bss7b.fcefce.cn/sat/cn231/playlist.m3u8?sign=3843dd2742c831f4529b9b116b0e8d0d&t=1793876343&x=dcf.cuu18c.net_510869
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",AFC > LION CITY VS ADELAIDE UNITED SUPER OK
-#EXTVLCOPT:referrer=https://dcf.cuu18c.net/
-https://tg0q1grauqmtofaauqmt1gy314a53grasnmugc3wge3mnqwzgg5o.100ycdn.com/cy11a.ffhdebu.cn/sat/cn241/playlist.m3u8?sign=4e1b501cf55d871387770cc6e5d533ef&t=6AEC7C09&x=dcf.cuu18c.net_510869&wsSession=65f01a0781ef8e1747df9a79-179388315292513&wsIPSercert=6f622cd4360bde5079dee2e8ad474e72&wsBindIP=2&wsserid=1168235948330673910
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 1 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 2 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 3 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 4 SUPER OK
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://primevideo.com/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:license_type=clearkey
+#KODIPROP:license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > AZ Alkmaar vs Juventus
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grauqmtofaauomtz8yssg6jtgfo1h3ugpb1gkauif3tsh.100ycdn.com/cy11a.ffhdebu.cn/sat/vn131/playlist.m3u8?sign=47440eecdc55bb309489cde9b7ea3b87&t=6AECEABA&x=dcf.cuu18c.net_510869&wsSession=ed4d0eb121052877af57cba4-179391148441924&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168235375235477938
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Leverkusen vs Marseille
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grzdkpbqgrzdncjzfi5zgh5ugitnh7mic3t813mwf3tsh.100ycdn.com/wsss5b.uufbyet.cn/sat/vn051/playlist.m3u8?k=0d85e0526b4ceeeb8f19b725e360d89c&t=6AECF3F3&x=dcf.cuu18c.net_510869&wsSession=5613a8b3e1a92fcd4ec9c199-179391384379456&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168215489706069317
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Benfica vs Lech Poznan
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q6geauymt1go41hpjofa3dyptpcphuncmbf3ugc4drcit8kmudpa.100ycdn.com/cy11a.ffhdebu.cn/sat/cn411/playlist.m3u8?sign=1cc55030d2c6a8ca89e9fa21bb5466fd&t=6AECEDEC&x=dcf.cuu18c.net_510869&wsSession=ae3236e129af0859032c822d-179391230088693&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1172662689757036152
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Celta Vigo vs Union St.Gilloise
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q6geauymt1go41hpjofa3dyptpcphuncmbf3ugc4drcit8kmudpa.100ycdn.com/cy11a.ffhdebu.cn/sat/cn351/playlist.m3u8?sign=719d15fbb7f3983f1c6d7bd1ebe3980d&t=6AECEE66&x=dcf.cuu18c.net_510869&wsSession=ae3236e129af0859032c822d-179391242302616&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1172662689757036152
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Celtic vs Beşiktaş
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://bss6a.aakfqas.com/sat/vn041/playlist.m3u8?sign=f30b64703821899ca88d10e088da98bb&t=1793912884&x=dcf.cuu18c.net_510869&_t=1793912884190
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Hapoel Beer Sheva vs OFI Crete
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://bss6a.aakfqas.com/sat/vn041/playlist.m3u8?sign=b15461117b460ee82fab2e0c7cc702c6&t=1793912980&x=dcf.cuu18c.net_510869&_t=1793912979918
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Sturm Graz vs NK Celje
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grauqmtofaauomtz8yssg6jtgfo1h3ugpb1gkauif3tsh.100ycdn.com/cy11a.ffhdebu.cn/sat/cn431/playlist.m3u8?sign=6e944d8af6a81ae7388965ae79ae7c7d&t=6AECF0FF&x=dcf.cuu18c.net_510869&wsSession=f34b3953e28bc971e264133f-179391308793746&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168235375238623738
+#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",C2 > Sunderland vs Dinamo Zagreb
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
+https://tg0q3grauqmtofaauomtz8yssg6jtgfo1h3ugpb1gkauif3tsh.100ycdn.com/cy11a.ffhdebu.cn/sat/vn081/playlist.m3u8?sign=5c405e7acdb5e52fefc7a9ec68a82079&t=6AECF150&x=dcf.cuu18c.net_510869&wsSession=f34b3953e28bc971e264133f-179391316868552&wsIPSercert=95804c0b53478d55bf1d458623789586&wsBindIP=2&wsserid=1168235375238623738
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Howard%20Bison%20Vs%20South%20Carolina%20State%20Bulldogs.jpg" group-title="American football", Howard Bison Vs South Carolina State Bulldogs - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
