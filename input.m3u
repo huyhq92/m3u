@@ -1350,128 +1350,73 @@ https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a5
 https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8
 #EXTINF:-1 group-title="🎵 Nghe nhạc" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/picture/main/nkl.png", ZingRadio 12 - Nhạc không lời
 https://multi-playlist-zmp3.zmdcdn.me/4WEUr_3aq8I/zhls/playback-realtime/1f36d59ae9df008159ce/index.m3u8
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 1 SUPER OK
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://primevideo.com/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:license_type=clearkey
-#KODIPROP:license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 2 SUPER OK
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://primevideo.com/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:license_type=clearkey
-#KODIPROP:license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 3 SUPER OK
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://primevideo.com/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:license_type=clearkey
-#KODIPROP:license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",LIVE EVENT 4 SUPER OK
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://primevideo.com/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:license_type=clearkey
-#KODIPROP:license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",2:30 > Hamburger SV vs Monchengladbach
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://tg0r6gr4nhct1gwzdrcttfa5unmmzqp3zgpmnf34zk3unxf1zemudpa.100ycdn.com/wsss5b.uufbyet.cn/sat/jp131/playlist.m3u8?k=a13001b0c4ec73ebbc56a09cef6dd9de&t=6AEE2BA8&x=dcf.cuu18c.net_510869&wsSession=c1f66946b16eb6e9edb18baa-179399364111069&wsIPSercert=d47c459f5659189ebfe481c6110f4a52&wsBindIP=2&wsserid=1168239733243780912
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",2:45 > Venezia vs Udinese
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://bss7b.fcefce.cn/sat/kor011/playlist.m3u8?sign=894fdec072b913a6ef26afed4652d016&t=1793994544&x=dcf.cuu18c.net_510869&_t=1793994544235
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",3:00 > Sevilla vs Alaves
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://wsss4a.fztfzt.cn/sat/vn111/playlist.m3u8?k=dcb217f5126b54b79ba8e449824e122c&t=6AEE323D&x=dcf.cuu18c.net_510869&_t=1793995325235
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",3:00 > Everton vs Coventry City
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://primevideo.com/
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Indiana%20Pacers%20Vs%20Denver%20Nuggets.jpg" group-title="Basketball", Indiana Pacers Vs Denver Nuggets - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Seattle%20Kraken%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Seattle Kraken Vs New York Rangers - PREMIERE2 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",19:30 > Leeds United vs Tottenham
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",22:00 > Arsenal vs Hull City
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",22:00 > Fulham vs Newcastle
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",Toulouse vs Strasbourg
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://wsss4a.fztfzt.cn/sat/jp161/playlist.m3u8?k=effc021de17f4587c5a3021bce4a7610&t=6AEE2F86&x=dcf.cuu18c.net_510869&_t=1793994630282
-#EXTINF:-1 tvg-logo="https://media.giphy.com/media/mWnDeIKilkwDcrM2VT/giphy.gif" group-title="🌟LIVE🌟",20:00 > Malaga vs Racing Santander
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://dcf.cuu18c.net/
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Germany%20Vs%20Austria.jpg" group-title="Hockey", Germany Vs Austria - STREAM TV + HD
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Japan%20Vs%20Denmark.jpg" group-title="Hockey", Japan Vs Denmark - STREAM TV + HD
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Nashville%20Predators%20Vs%20St.%20Louis%20Blues.jpg" group-title="Hockey", Nashville Predators Vs St. Louis Blues - STREAM TV + HD
+#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Seattle%20Kraken%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Seattle Kraken Vs New York Rangers - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59468/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Coastal%20Carolina%20Chanticleers%20Vs%20Old%20Dominion%20Monarchs.jpg" group-title="American football", Coastal Carolina Chanticleers Vs Old Dominion Monarchs - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Waldo%20Cortes-Acosta%20Vs%20Johnny%20Walker.jpg" group-title="Boxing", Waldo Cortes-Acosta Vs Johnny Walker - TNT1UK SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Louisiana%20Ragin%20Cajuns%20Vs%20South%20Alabama%20Jaguars.jpg" group-title="American football", Louisiana Ragin Cajuns Vs South Alabama Jaguars - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59467/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Kansas%20State%20Wildcats%20Vs%20Oklahoma%20State%20Cowboys.jpg" group-title="American football", Kansas State Wildcats Vs Oklahoma State Cowboys - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Joshua%20Buatsi%20Vs%20Willy%20Hutchinson.jpg" group-title="Boxing", Joshua Buatsi Vs Willy Hutchinson - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59469/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Auburn%20Tigers%20Vs%20Arkansas%20Razorbacks.jpg" group-title="American football", Auburn Tigers Vs Arkansas Razorbacks - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist/59438/load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Joshua%20Buatsi%20Vs%20Willy%20Hutchinson.jpg" group-title="Boxing", Joshua Buatsi Vs Willy Hutchinson - HD QUALITY 2
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59466/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Washington%20Capitals%20Vs%20Florida%20Panthers.jpg" group-title="Hockey", Washington Capitals Vs Florida Panthers - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist/59448/load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Joshua%20Buatsi%20Vs%20Willy%20Hutchinson.jpg" group-title="Boxing", Joshua Buatsi Vs Willy Hutchinson - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/HLLLAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/France%20Vs%20Fiji.jpg" group-title="Rugby", France Vs Fiji - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.55/hls/hsssAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/France%20Vs%20Fiji.jpg" group-title="Rugby", France Vs Fiji - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.55/hls/hsssAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montreal%20Alouettes%20Vs%20Winnipeg%20Blue%20Bombers.jpg" group-title="American football", Montreal Alouettes Vs Winnipeg Blue Bombers - TSN1 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 1TSN1 SPORTS FHD0.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Montreal%20Alouettes%20Vs%20Winnipeg%20Blue%20Bombers.jpg" group-title="American football", Montreal Alouettes Vs Winnipeg Blue Bombers - TSN3 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Kennesaw%20State%20Owls%20Vs%20Delaware%20Blue%20Hens.jpg" group-title="American football", Kennesaw State Owls Vs Delaware Blue Hens - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59461/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Purdue%20Boilermakers%20Vs%20Maryland%20Terrapins.jpg" group-title="American football", Purdue Boilermakers Vs Maryland Terrapins - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Arkansas%20State%20Red%20Wolves%20Vs%20Louisiana-Monroe%20Warhawks.jpg" group-title="American football", Arkansas State Red Wolves Vs Louisiana-Monroe Warhawks - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59460/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Baylor%20Bears%20Vs%20Iowa%20State%20Cyclones.jpg" group-title="American football", Baylor Bears Vs Iowa State Cyclones - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist/59493/load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Carolina%20Gamecocks%20Vs%20Texas%20A%26M%20Aggies.jpg" group-title="American football", South Carolina Gamecocks Vs Texas A&M Aggies - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59456/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Missouri%20Tigers%20Vs%20Texas%20Longhorns.jpg" group-title="American football", Missouri Tigers Vs Texas Longhorns - STREAM TV + HD
+https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Appalachian%20State%20Mountaineers%20Vs%20Georgia%20State%20Panthers.jpg" group-title="American football", Appalachian State Mountaineers Vs Georgia State Panthers - STREAM TV + HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59452/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Connecticut%20Huskies%20Vs%20North%20Carolina%20Tar%20Heels.jpg" group-title="American football", Connecticut Huskies Vs North Carolina Tar Heels - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59451/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20College%20Eagles%20Vs%20Florida%20State%20Seminoles.jpg" group-title="American football", Boston College Eagles Vs Florida State Seminoles - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59457/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Utah%20Utes%20Vs%20Brigham%20Young%20Cougars.jpg" group-title="American football", Utah Utes Vs Brigham Young Cougars - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59454/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Tulane%20Green%20Wave%20Vs%20Tulsa%20Golden%20Hurricane.jpg" group-title="American football", Tulane Green Wave Vs Tulsa Golden Hurricane - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59459/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Syracuse%20Orange%20Vs%20Clemson%20Tigers.jpg" group-title="American football", Syracuse Orange Vs Clemson Tigers - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/59453/load-playlist?&.m3u8
+https://chatgpt.hereisman.net/playlist/59477/load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Appalachian%20State%20Mountaineers%20Vs%20Georgia%20State%20Panthers.jpg" group-title="American football", Appalachian State Mountaineers Vs Georgia State Panthers - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.55/hls/RHHH.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MMA%20Cage%20Warriors%20212%20Vs%20MMA%20Cage%20Warriors%20212.jpg" group-title="Boxing", MMA Cage Warriors 212 Vs MMA Cage Warriors 212 - Link 1
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
 http://193.47.62.50/hls/ACCC.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Wales%20Vs%20Japan.jpg" group-title="Rugby", Wales Vs Japan - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/zvvvaaa.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CROWN%20JEWEL%20Vs%20CROWN%20JEWEL.jpg" group-title="Boxing", CROWN JEWEL Vs CROWN JEWEL - WWE LIVE FHD
 https://navidrome.fromthyheart.site/dailymotion/live/playlist/1.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/CROWN%20JEWEL%20Vs%20CROWN%20JEWEL.jpg" group-title="Boxing", CROWN JEWEL Vs CROWN JEWEL - HD QUALITY +
@@ -1527,10 +1472,6 @@ https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1791804090_s~35174
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dg9oi3org7/out/v1/e75b690762ba4c4ca72bf30703a4473e/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Wukong%20Vs%20Chaila.jpg" group-title="Boxing", Wukong Vs Chaila - Link 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=bcc726b84d7938c9737c74afd418ebd2:467d3b4bf0fcbaa2906d12b18d55b05a
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dy1xencroc/out/v1/24927b870478400e84692cf5a24f6ae6/cenc.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - TNT2UK SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1559,3 +1500,5 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oln41tn1gj/out/v1/1247ce6ac92b4ee3be02e7082954348a/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Edmonton%20Elks%20Vs%20BC%20Lions.jpg" group-title="American football", Edmonton Elks Vs BC Lions - STREAM TV + HD
+https://file.genoads.com/ch1.m3u8
