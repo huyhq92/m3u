@@ -1,0 +1,280 @@
+name: HMTV1 - ban chup hmtv.m3u da thay link hong
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Moi ngay 01:30 gio Viet Nam (18:30 UTC)
+    - cron: "30 18 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hmtv1
+  cancel-in-progress: false
+
+jobs:
+  hmtv1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cai dat Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Quet hmtv.m3u va dung hmtv1.m3u (chi thay link chet 404/410)
+        run: |
+          python3 - << 'PYEOF'
+          #!/usr/bin/env python3
+          """Dung hmtv1.m3u tu hmtv.m3u (repo huyhq92/m3u).
+
+          hmtv.m3u la chuan, KHONG bao gio bi sua. Ket qua la hmtv1.m3u: ban sao
+          nguyen cau truc cua hmtv.m3u (so kenh, thu tu, ten, nhom, tvg-id, logo
+          giu nguyen 100%), chi cac kenh chet cung moi duoc doi URL + dong cau
+          hinh di kem sang link tot lay tu nguon cho.
+
+          QUY TAC CHET (chot theo verdict tren may Akendu 2026-11-07):
+          - CHI tinh chet khi HTTP 404 hoac 410 (sau redirect, dung UA cua kenh).
+          - 403/401/405/429 = CDN chan IP may chay -> GIU NGUYEN (nhieu link song
+            tra 403 cho IP datacenter; quy uoc giong main.yml: 403 = con song).
+          - Redirect Error.mp4 (cong vmttv.dpdns.org/tv360) = GIU NGUYEN: tren
+            may Akendu cac kenh nay van len hinh, Error.mp4 chi xay ra voi IP
+            may quet.
+          - Rieng cum cong vmttv.dpdns.org/tv360/: KHONG BAO GIO thay, ke ca
+            khi may quet nhan 404 thang (cong nay tra ket qua khac nhau theo
+            IP; Akendu da xac nhan tren may la con hoat dong). Link qua cong
+            vmttv.dpdns.org cung KHONG duoc dung lam nguon cho (redirect cua
+            no mang token ky so het han, khong ben cho mot list tinh).
+          - Loi o muc segment (playlist tai duoc nhung doan phat loi) = GIU
+            NGUYEN: Dong Nai 3 bi bao seg_dead nhung tren may van phat tot.
+          - Timeout/trong ket noi tam thoi = GIU NGUYEN.
+
+          NGUON CHO (uu tien): tv44-source.m3u (ban chup 4note, trong repo) >
+          full.m3u (trong repo) > ngvhiem (live) > vmttv (live, repo goc da mat
+          nen tai loi thi bo qua). Khop theo tvg-id truoc, roi ten chuan hoa.
+          Thu lan luot MOI ung vien cho toi khi co ung vien duoc chap nhan:
+          - HTTP 200 + body la playlist (#EXTM3U) hoac manifest (<MPD) -> nhan.
+          - HTTP 403/405 -> nhan (suy doan con song theo quy uoc repo; can cho
+            cac nguon vtvprime chan IP datacenter nhung phat tot tren may nha).
+          - Con lai (404, Error.mp4, timeout...) -> bo, thu ung vien tiep theo.
+
+          Kenh co thuoc tinh catchup trong EXTINF thi KHONG thay (tranh lech
+          catchup-source). Truoc khi ghi: kiem tra cau truc - so kenh va day
+          EXTINF phai khop het voi hmtv.m3u, so kenh thay <= 25% tong so;
+          lech la dung lai (exit 1), khong ghi hmtv1.m3u.
+          """
+          import re, subprocess, sys, unicodedata
+          from concurrent.futures import ThreadPoolExecutor
+          from pathlib import Path
+
+          BASE_FILE = Path('hmtv.m3u')
+          OUT_FILE = Path('hmtv1.m3u')
+          DALVIK = 'Dalvik/2.1.0'
+          DONOR_FILES = [('4note', 'tv44-source.m3u'), ('full.m3u', 'full.m3u')]
+          DONOR_URLS = [
+              ('ngvhiem', 'https://raw.githubusercontent.com/ngvhiem/IPTV/refs/heads/main/IPTV.m3u'),
+              ('vmttv', 'https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv'),
+          ]
+
+          def fetch_text(url, timeout=40):
+              p = subprocess.run(['curl', '-4', '-sL', '--max-time', str(timeout),
+                                  '-A', 'Mozilla/5.0', url],
+                                 capture_output=True, text=True)
+              return p.stdout if p.returncode == 0 else ''
+
+          def parse_entries(text):
+              lines = text.splitlines()
+              entries, i = [], 0
+              while i < len(lines):
+                  if lines[i].startswith('#EXTINF:'):
+                      blk = [lines[i]]; i += 1
+                      while i < len(lines) and not lines[i].startswith('#EXTINF:'):
+                          blk.append(lines[i]); i += 1
+                          if not blk[-1].startswith('#'):
+                              break
+                      entries.append(blk)
+                  else:
+                      i += 1
+              out = []
+              for b in entries:
+                  ext = b[0]
+                  m = re.search(r'tvg-id="([^"]*)"', ext)
+                  ua = DALVIK; ref = None
+                  for l in b[1:-1]:
+                      mu = re.match(r'#EXTVLCOPT:(?:http-)?user-agent=(.*)', l)
+                      if mu: ua = mu.group(1).strip()
+                      mr = re.match(r'#EXTVLCOPT:(?:http-)?referr?er=(.*)', l)
+                      if mr: ref = mr.group(1).strip()
+                  out.append({'name': ext.rsplit(',', 1)[-1], 'tid': m.group(1) if m else '',
+                              'url': b[-1].strip(), 'ua': ua, 'ref': ref, 'block': b})
+              return out
+
+          def norm(s):
+              s = unicodedata.normalize('NFD', s)
+              s = ''.join(c for c in s if not unicodedata.combining(c))
+              return re.sub(r'[^a-z0-9+]', '', s.lower())
+
+          def curl_probe(url, ua, ref=None, timeout=18):
+              cmd = ['curl', '-4', '-s', '-L', '--max-time', str(timeout),
+                     '--max-filesize', '2000000', '-A', ua, '-o', '/dev/stdout',
+                     '-w', '\n@@%{http_code}@@%{url_effective}@@%{size_download}']
+              if ref: cmd += ['-e', ref]
+              cmd.append(url)
+              try:
+                  p = subprocess.run(cmd, capture_output=True, timeout=timeout + 10)
+              except subprocess.TimeoutExpired:
+                  return 28, 0, url, b''
+              out = p.stdout
+              m = re.search(rb'\n@@(\d+)@@(.*?)@@(\d+)\s*$', out, re.S)
+              body = out[:m.start()] if m else out
+              code = int(m.group(1)) if m else 0
+              final = m.group(2).decode('utf-8', 'replace') if m else url
+              return p.returncode, code, final, body
+
+          def is_dead(url, ua, ref=None):
+              """Chi 404/410 moi la chet. Moi truong hop khac deu giu nguyen."""
+              rc, code, final, body = curl_probe(url, ua, ref)
+              return code in (404, 410), f'HTTP {code} rc={rc}'
+
+          def donor_acceptable(url, ua, ref=None):
+              rc, code, final, body = curl_probe(url, ua, ref)
+              if 'Error.mp4' in final:
+                  return False, 'redirect Error.mp4'
+              head = body[:400].decode('utf-8', 'replace')
+              if code == 200 and (head.lstrip().startswith('#EXTM3U') or '<MPD' in head):
+                  return True, 'HTTP 200 playlist/manifest'
+              if code in (403, 405):
+                  return True, f'HTTP {code} (quy uoc repo: con song)'
+              return False, f'HTTP {code} rc={rc}'
+
+          def build_swap_block(base_entry, donor_entry):
+              """EXTINF giu nguyen cua hmtv.m3u; cau hinh + URL lay tu nguon cho,
+              chuan hoa theo dang dang chay tot trong file (them UA Dalvik va dong
+              inputstream neu nguon cho thieu)."""
+              ext = base_entry['block'][0]
+              donor_opts = [l for l in donor_entry['block'][1:-1] if l.startswith('#')]
+              if not donor_opts:
+                  opts = [l for l in base_entry['block'][1:-1] if l.startswith('#')]
+              else:
+                  opts = list(donor_opts)
+                  if not any(re.match(r'#EXTVLCOPT:(?:http-)?user-agent=', l) for l in opts):
+                      opts.insert(0, '#EXTVLCOPT:http-user-agent=' + DALVIK)
+                  if any('manifest_type=mpd' in l for l in opts) and \
+                     not any(l.startswith('#KODIPROP:inputstream=') for l in opts):
+                      idx = next(i for i, l in enumerate(opts) if l.startswith('#KODIPROP:'))
+                      opts.insert(idx, '#KODIPROP:inputstream=inputstream.adaptive')
+              return [ext] + opts + [donor_entry['url']]
+
+          def main():
+              base_text = BASE_FILE.read_text(encoding='utf-8')
+              if '#EXTM3U' not in base_text:
+                  print('KHONG doc duoc hmtv.m3u - dung lai'); sys.exit(1)
+              header = next((l for l in base_text.splitlines() if l.startswith('#EXTM3U')),
+                            '#EXTM3U url-tvg="https://epg.io.vn/epg.xml.gz"')
+              entries = parse_entries(base_text)
+              print(f'hmtv.m3u: {len(entries)} kenh')
+
+              cand_by_tid, cand_by_name = {}, {}
+              for sname, fname in DONOR_FILES:
+                  p = Path(fname)
+                  if not p.exists():
+                      print(f'Nguon cho {sname}: khong co file {fname}, bo qua'); continue
+                  n = 0
+                  for e in parse_entries(p.read_text(encoding='utf-8')):
+                      if e['tid']: cand_by_tid.setdefault(e['tid'], []).append((sname, e)); n += 1
+                      k = norm(e['name'])
+                      if k: cand_by_name.setdefault(k, []).append((sname, e))
+                  print(f'Nguon cho {sname}: {n} kenh')
+              for sname, url in DONOR_URLS:
+                  txt = fetch_text(url)
+                  if '#EXTM3U' not in txt:
+                      print(f'Nguon cho {sname}: tai loi, bo qua'); continue
+                  n = 0
+                  for e in parse_entries(txt):
+                      if e['tid']: cand_by_tid.setdefault(e['tid'], []).append((sname, e)); n += 1
+                      k = norm(e['name'])
+                      if k: cand_by_name.setdefault(k, []).append((sname, e))
+                  print(f'Nguon cho {sname}: {n} kenh')
+
+              with ThreadPoolExecutor(max_workers=10) as ex:
+                  dead_flags = list(ex.map(lambda e: is_dead(e['url'], e['ua'], e['ref']), entries))
+              dead_idx = []
+              for i, (d, _) in enumerate(dead_flags):
+                  if not d:
+                      continue
+                  if 'vmttv.dpdns.org/tv360/' in entries[i]['url']:
+                      print(f"  GIU (cong vmttv, Akendu xac nhan con song tren may) {entries[i]['name']}")
+                      continue
+                  dead_idx.append(i)
+              print(f'Kenh chet cung (404/410): {len(dead_idx)}')
+
+              out_blocks = [list(e['block']) for e in entries]
+              swapped, no_donor = [], []
+              for i in dead_idx:
+                  e = entries[i]
+                  detail = dead_flags[i][1]
+                  if 'catchup' in e['block'][0]:
+                      no_donor.append((e, detail, 'co catchup, khong thay'))
+                      continue
+                  cands = []
+                  if e['tid'] and e['tid'] in cand_by_tid:
+                      cands += cand_by_tid[e['tid']]
+                  k = norm(e['name'])
+                  if k in cand_by_name:
+                      seen_urls = {c[1]['url'] for c in cands}
+                      cands += [c for c in cand_by_name[k] if c[1]['url'] not in seen_urls]
+                  done = False
+                  for sname, ce in cands:
+                      if ce['url'] == e['url']:
+                          continue
+                      if 'vmttv.dpdns.org' in ce['url']:
+                          print(f"  {e['name']}: bo ung vien {sname} {ce['url']} (qua cong vmttv, token het han)")
+                          continue
+                      ok, why = donor_acceptable(ce['url'], ce['ua'], ce['ref'])
+                      print(f"  {e['name']}: ung vien {sname} {ce['url']} -> {'NHAN' if ok else 'bo'} ({why})")
+                      if ok:
+                          out_blocks[i] = build_swap_block(e, ce)
+                          swapped.append((e, sname, ce['url'], detail))
+                          done = True
+                          break
+                  if not done:
+                      no_donor.append((e, detail, 'khong co ung vien dat'))
+
+              if len(swapped) > len(entries) // 4:
+                  print(f'CANH BAO: thay {len(swapped)}/{len(entries)} kenh (>25%) - nghi loi do hang loat, dung lai')
+                  sys.exit(1)
+
+              base_extinf = [e['block'][0] for e in entries]
+              out_extinf = []
+              for b in out_blocks:
+                  out_extinf.append(b[0])
+              if len(out_blocks) != len(entries) or out_extinf != base_extinf:
+                  print('LOI CAU TRUC: so kenh/thu tu EXTINF lech hmtv.m3u - dung lai, khong ghi')
+                  sys.exit(1)
+
+              with OUT_FILE.open('w', encoding='utf-8') as f:
+                  f.write(header + '\n')
+                  for b in out_blocks:
+                      f.write('\n'.join(b) + '\n')
+              print(f'Da ghi hmtv1.m3u: {len(out_blocks)} kenh, thay {len(swapped)} link')
+              for e, sname, new_url, detail in swapped:
+                  print(f"  THAY [{detail}] {e['name']}: {e['url']} -> {new_url} (nguon {sname})")
+              for e, detail, why in no_donor:
+                  print(f"  GIU (chet nhung {why}) [{detail}] {e['name']}: {e['url']}")
+
+          if __name__ == '__main__':
+              main()
+          PYEOF
+
+      - name: Commit hmtv1.m3u neu co thay doi
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add hmtv1.m3u
+          git diff --staged --quiet && echo "Khong co thay doi" && exit 0
+          git commit -m "Tu dong cap nhat hmtv1.m3u (ban chup hmtv.m3u, thay link chet)"
+          git pull --rebase origin main
+          git push
