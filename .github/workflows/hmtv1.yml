@@ -54,7 +54,9 @@ jobs:
 
           NGUON CHO (uu tien): tv44-source.m3u (ban chup 4note, trong repo) >
           full.m3u (trong repo) > ngvhiem (live) > vmttv (live, repo goc da mat
-          nen tai loi thi bo qua). Khop theo tvg-id truoc, roi ten chuan hoa.
+          nen tai loi thi bo qua) > vietmitv (live, them 2026-11-08 theo loi
+          Akendu; link qua cong c.php chap chon voi IP datacenter, tai loi thi
+          bo qua). Khop theo tvg-id truoc, roi ten chuan hoa.
           Thu lan luot MOI ung vien cho toi khi co ung vien duoc chap nhan:
           - HTTP 200 + body la playlist (#EXTM3U) hoac manifest (<MPD) -> nhan.
           - HTTP 403/405 -> nhan (suy doan con song theo quy uoc repo; can cho
@@ -77,6 +79,7 @@ jobs:
           DONOR_URLS = [
               ('ngvhiem', 'https://raw.githubusercontent.com/ngvhiem/IPTV/refs/heads/main/IPTV.m3u'),
               ('vmttv', 'https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv'),
+              ('vietmitv', 'https://vietmitv.id.vn/vietmitv.m3u'),
           ]
 
           def fetch_text(url, timeout=40):
