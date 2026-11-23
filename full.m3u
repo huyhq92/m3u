@@ -1,7 +1,10 @@
 #EXTM3U url-tvg="https://lichphatsong.io.vn/epg.xml,https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="update_info" tvg-name="(433) Updated 09:50 23/11/2026" tvg-logo="https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.png" group-title="👌 UPDATE",(433) Updated 09:50 23/11/2026
+#EXTINF:-1 tvg-id="update_info" tvg-name="(424) Updated 22:00 23/11/2026" tvg-logo="https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.png" group-title="👌 UPDATE",(424) Updated 22:00 23/11/2026
 #KODIPROP:inputstream.adaptive.manifest_type=mp4
 https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.mp4
+#EXTINF:-1 tvg-id="Prime-phim-viet" tvg-logo="https://img.vtvprime.vn/BbWQKcX8QrPq7VZkouPkWNzf-Ka5rP_ltNq1JsK2qJw/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvMmRlMjA5NmMtMWJiMC00ODgzLTlhZGMtNjZiZTRiNzNmYjE5LnBuZw==.png" group-title="🌟VTV & VTVCab🌟" , Prime Phim Việt
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://srsfkobxdcliv.vcdn.cloud/hls/playout.m3u8
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/1.png" group-title="🌟VTV & VTVCab🌟" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/VTV1_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",VTV1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -83,19 +86,19 @@ https://livesct.vtvprime.vn/Live_DASHDRM1/VIETNAMTODAY/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2135c7e9270b43b38032d56807b23575:873b9f0fb133179a428655502be16ef0
 https://livevlisctcdnw.seenow.vn/mean/VTVCAB13/manifest.mpd
-#EXTINF:-1 tvg-id="onviegiaitri" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/ongiai.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=180&start=${start}", ON Vie Giải Trí­
+#EXTINF:-1 tvg-id="onviegiaitri" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/ongiai.png" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/GIAITRI_TV_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0", ON Vie Giải Trí­
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3e1c6077ab034d3b9f02d0ae43825eec:c40b6a2c7b94cbd4958b1d93d9b23aed
 https://livevlisctcdnw.seenow.vn/livesnv2/GIAITRI_TV_HD/manifest.mpd
-#EXTINF:-1 tvg-id="onphimviet" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/phimviet.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=175&start=${start}",ON Phim Việt
+#EXTINF:-1 tvg-id="onphimviet" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/phimviet.png" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/PHIM_VIET/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Phim Việt
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7417db88928243fda4e03596bbd19a27:eebb689de1191ae1b207d32f0d5ca9fe
 https://livevlisctcdnw.seenow.vn/livesnv2/PHIM_VIET/manifest.mpd
-#EXTINF:-1 tvg-id="onmovies" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/onmovi.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=181&start=${start}",ON Movies
+#EXTINF:-1 tvg-id="onmovies" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/onmovi.png" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/VAN_HOA/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Movies
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -113,7 +116,7 @@ https://livevlisctcdnw.seenow.vn/Live_DASHDRM1/E_CHANNEL/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1b5a915f267e417085e0f68200395a41:5544d7c1e523a53d404ab2823132ee7e
 https://livevlisctcdnw.seenow.vn/livesnv2/O2_TV/manifest.mpd
-#EXTINF:-1 tvg-id="onbibi" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/bibi.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=178&start=${start}",ON Bibi
+#EXTINF:-1 tvg-id="onbibi" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/bibi.png" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/BIBI/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Bibi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -125,7 +128,7 @@ https://livevlisctcdnw.seenow.vn/livesnv2/BIBI/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=39425f1a9f7f4db985b5e7b2e65e4208:63e3aad2bc5bed77e59724ba8d2e94f0
 https://livevlisctcdnw.seenow.vn/livesnv2/INFO_TV/manifest.mpd
-#EXTINF:-1 tvg-id="oncine" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/oncine.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=176&start=${start}",ON Cine
+#EXTINF:-1 tvg-id="oncine" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/oncine.png" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/mean/FILM_TV/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Cine
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -149,7 +152,7 @@ https://livevlisctcdnw.seenow.vn/livesnv2/M_CHANNEL/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=765c826c381e4d58849784bb206c8e90:2970317ebf86d70fa11434eab4c59c5d
 https://livevlisctcdnw.seenow.vn/livesnv2/YEAH1_TV/manifest.mpd
-#EXTINF:-1 tvg-id="onviedramas" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/drama.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=177&start=${start}",ON Vie Dramas
+#EXTINF:-1 tvg-id="onviedramas" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/drama.png" catchup="append" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/D_DRAMAS_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -161,7 +164,7 @@ https://livevlisctcdnw.seenow.vn/livesnv2/D_DRAMAS_HD/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c01b22c5f5b44d72b9902b33a4c36fb7:8fe81a99e5b1cc891bb9e9f848b6e2e7
 https://livevlisctcdnw.seenow.vn/livesnv2/VFAMILY/manifest.mpd
-#EXTINF:-1 tvg-id="onkids" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/kisd.png" tvg-shift="0" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=179&start=${start}",ON Kids
+#EXTINF:-1 tvg-id="onkids" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/kisd.png" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/BIBI_PLUS_clear/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",ON Kids
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -310,7 +313,7 @@ https://livebytatm.vtvprime.vn/live/data8/HTVCPHIM/Live_DASHDRM/HTVCPHIM.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9121ebe293bc46cd89e5d83a78c1a53c:9285615a491a424fb025f9e8d571bcd5
 https://liveatmvng.vtvprime.vn/live/data8/SCTV1/Live_DASHDRM/SCTV1.mpd
-#EXTINF:-1 tvg-id="sctv2hd" tvg-logo="https://img.vtvprime.vn/2-NtvNvKve2iVPZxEjQcsXZE_As2Re-izRbLrmGrsUg/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvMjE3ZWExZWYtYzFhMS00NWY0LTg3MzEtM2Y1ODhkZmE0OTBhLnBuZw==.png" group-title="🌟SCTV🌟" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=201&start=${start}",SCTV2 - TODAY TV
+#EXTINF:-1 tvg-id="sctv2hd" tvg-logo="https://img.vtvprime.vn/2-NtvNvKve2iVPZxEjQcsXZE_As2Re-izRbLrmGrsUg/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvMjE3ZWExZWYtYzFhMS00NWY0LTg3MzEtM2Y1ODhkZmE0OTBhLnBuZw==.png" group-title="🌟SCTV🌟",SCTV2 - TODAY TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -334,7 +337,7 @@ https://liveatmvng.vtvprime.vn/live/data8/SCTV4/Live_DASHDRM/SCTV4.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9121ebe293bc46cd89e5d83a78c1a53c:9285615a491a424fb025f9e8d571bcd5
 https://liveatmvng.vtvprime.vn/live/data8/SCTV5/Live_DASHDRM/SCTV5.mpd
-#EXTINF:-1 tvg-id="sctv6hd" tvg-logo="https://img.vtvprime.vn/PJH8961fmQ4n1-_ft_t1NVX9fo0pGguTp6WwIpb147k/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvMzkzNzFlNDgtYWQxYy00NTJhLThiMjItNjUyNzZlYTE2OTJlLnBuZw==.png" group-title="🌟SCTV🌟" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=232&start=${start}",SCTV6
+#EXTINF:-1 tvg-id="sctv6hd" tvg-logo="https://img.vtvprime.vn/PJH8961fmQ4n1-_ft_t1NVX9fo0pGguTp6WwIpb147k/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvMzkzNzFlNDgtYWQxYy00NTJhLThiMjItNjUyNzZlYTE2OTJlLnBuZw==.png" group-title="🌟SCTV🌟",SCTV6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1419,28 +1422,28 @@ https://vmttv.dpdns.org/tv360/?id=tv360-15
 #EXTINF:-1 group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_640_360.png", TV360 Promo
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://freem3u.xyz/api/live/play.m3u8?vid=9904
-#EXTINF:-1 tvg-id="360phimviet" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/07/15/1775549899305/f54a93a767c5_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=9902&start=${start}", 360 Phim Việt
+#EXTINF:-1 tvg-id="360phimviet" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/07/15/1775549899305/f54a93a767c5_640_360.png", 360 Phim Việt
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=phim-viet
-#EXTINF:-1 tvg-id="360phimaumy" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/08/1775697767861/9a6dc88794cf_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=9903&start=${start}", 360 Phim Âu Mỹ
+#EXTINF:-1 tvg-id="360phimaumy" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/08/1775697767861/9a6dc88794cf_640_360.png", 360 Phim Âu Mỹ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=phim-au-my
-#EXTINF:-1 tvg-id="360hoathinh" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/07/15/1775549978212/fcfc9c6d7919_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=9934&start=${start}", 360 Hoạt hình
+#EXTINF:-1 tvg-id="360hoathinh" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/07/15/1775549978212/fcfc9c6d7919_640_360.png", 360 Hoạt hình
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=hoat-hinh
-#EXTINF:-1 tvg-id="360phimhoangu" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/08/1775697736867/3854900b7263_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10008&start=${start}", 360 Phim Hoa Ngữ
+#EXTINF:-1 tvg-id="360phimhoangu" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/08/1775697736867/3854900b7263_640_360.png", 360 Phim Hoa Ngữ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-hoa-ngu
-#EXTINF:-1 tvg-id="360hanhdongchaua" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/08/10/1775617851169/1f38a5af77c1_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10009&start=${start}", 360 Hành Động Châu Á
+#EXTINF:-1 tvg-id="360hanhdongchaua" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/08/10/1775617851169/1f38a5af77c1_640_360.png", 360 Hành Động Châu Á
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-hanh-dong-chau-a
-#EXTINF:-1 tvg-id="360kdrama" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/21/1775744591740/79928f9b003f_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10010&start=${start}", 360 K-Drama
+#EXTINF:-1 tvg-id="360kdrama" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/09/21/1775744591740/79928f9b003f_640_360.png", 360 K-Drama
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-k-drama
-#EXTINF:-1 tvg-id="360haitinhcam" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063183880/03439dc9da19_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10011&start=${start}", 360 Hài - Tình Cảm
+#EXTINF:-1 tvg-id="360haitinhcam" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063183880/03439dc9da19_640_360.png", 360 Hài - Tình Cảm
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-hai-tinh-cam
-#EXTINF:-1 tvg-id="360phimkinhdien" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063200976/6ced2ef539a4_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10012&start=${start}", 360 Phim Kinh Điển
+#EXTINF:-1 tvg-id="360phimkinhdien" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063200976/6ced2ef539a4_640_360.png", 360 Phim Kinh Điển
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-phim-kinh-dien
 #EXTINF:-1 tvg-id="360anime" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063223569/462daff06d9d_640_360.png", 360 Anime
@@ -1449,15 +1452,15 @@ https://vmttv.dpdns.org/tv360/?id=360-anime
 #EXTINF:-1 tvg-id="360thieunhi" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/06/18/13/1781765362332/737c1501b0c5_640_360.png", 360 Thiếu Nhi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-thieu-nhi
-#EXTINF:-1 tvg-id="360phim4k" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/07/30/10/1785382803894/362700e9107b_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10055&start=${start}", 360 Phim 4K
+#EXTINF:-1 tvg-id="360phim4k" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/07/30/10/1785382803894/362700e9107b_640_360.png", 360 Phim 4K
 https://vmttv.dpdns.org/tv360/?id=360-phim-4k
-#EXTINF:-1 tvg-id="360mrbean" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791858821345/520250e785d1_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10064&start=${start}", 360 Mr.bean
+#EXTINF:-1 tvg-id="360mrbean" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791858821345/520250e785d1_640_360.png", 360 Mr.bean
 https://vmttv.dpdns.org/tv360/?id=360-mr-bean
-#EXTINF:-1 tvg-id="360doraemon" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791859203131/6878ad4f88c0_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10065&start=${start}", 360 Doraemon
+#EXTINF:-1 tvg-id="360doraemon" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791859203131/6878ad4f88c0_640_360.png", 360 Doraemon
 https://vmttv.dpdns.org/tv360/?id=360-doraemon
-#EXTINF:-1 tvg-id="360songkhoe" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791859801499/e3bcb47a3b1b_640_360.png" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10068&start=${start}", 360 Sống Khỏe
+#EXTINF:-1 tvg-id="360songkhoe" group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791859801499/e3bcb47a3b1b_640_360.png", 360 Sống Khỏe
 https://vmttv.dpdns.org/tv360/?id=360-song-khoe
-#EXTINF:-1 tvg-logo="https://img-evg1.tv360.vn/image1/2026/04/15/22/177626841934/e289a43bd190_480_270.png" group-title="🇻🇳 TV360 EVENTS", 360 C1 Châu Âu
+#EXTINF:-1 group-title="🇻🇳 TV360 EVENTS" tvg-logo=" https://img-zlr1.tv360.vn/image1/2026/04/15/22/177626841934/e289a43bd190_640_360.png", 360 C1 Châu Âu
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vmttv.dpdns.org/tv360/?id=360-c1-chau-au
 #EXTINF:-1 group-title="🇻🇳 TV360 EVENTS" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/15/23/1776269925378/3875f76de1cd_640_360.png", 360 C2 Châu Âu
@@ -1579,10 +1582,6 @@ https://livevliatmcdw.seenow.vn/live/data8/SKSS5/Live_DASHDRM/SKSS5.mpd
 https://livevliatmcdw.seenow.vn/live/data8/SKSS6/Live_DASHDRM/SKSS6.mpd
 #EXTINF:-1 group-title="Sự Kiện VTVPrime" tvg-logo="https://vtvprime.vn/sideLogoBig.png", VTVPrime 188
 https://qipmgzougxliv.vcdn.cloud/app/stream/master.m3u8
-#EXTINF:-1 tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791859301551/c840fcf1e3e0_480_270.png" tvg-id="360thamtuconan" group-title="🇻🇳 TV360 EVENTS" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10066&start=${start}",360 Thám Tử Conan
-https://vmttv.dpdns.org/tv360/?id=360-tham-tu-conan
-#EXTINF:-1 tvg-logo="https://img-evg1.tv360.vn/image1/2026/10/13/09/1791859374603/b55409354603_480_270.png" tvg-id="360chautinhtri" group-title="🇻🇳 TV360 EVENTS" catchup="append" catchup-days="1" catchup-source="https://tv.ngoibut-cachmang.workers.dev/tv360/ts.m3u8?id=10067&start=${start}",360 Châu Tinh Trì
-https://vmttv.dpdns.org/tv360/?id=360-chau-tinh-tri
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SPORTS%20LIVE%20Vs%20SPORTS%20LIVE.jpg" group-title="Other", SPORTS LIVE Vs SPORTS LIVE - NFL SERVER FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6e646d15d2ddfcf74c41ef6574b90fc:5c8bb38d3758dca73ad0ba63d6ba2841
@@ -1645,170 +1644,165 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Zealand%20Vs%20India.jpg" group-title="Cricket", New Zealand Vs India - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Zealand%20Vs%20India.jpg" group-title="Cricket", New Zealand Vs India - TNT1UK SPORTS FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - TNT1UK SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Zealand%20Vs%20India.jpg" group-title="Cricket", New Zealand Vs India - WILLOW ALT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - TNT3UK SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Zealand%20Vs%20India.jpg" group-title="Cricket", New Zealand Vs India - TNT2UK SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - ITV4 (SD USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/WJJJJJ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - TNT2UK SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Zealand%20Vs%20India.jpg" group-title="Cricket", New Zealand Vs India - LOW QUALITY (USE VPN)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Snooker%20Vs%20Snooker.jpg" group-title="Other", Snooker Vs Snooker - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/qaqaqa.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NFL%20REDZONE%20Vs%20NFL%20REDZONE.jpg" group-title="American football", NFL REDZONE Vs NFL REDZONE - RedZone - Week 11
+http://193.47.62.59/hls/WJJJJJ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - WILLOW FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ef575f9bbbc7bd252eb629553c04b572:036c3c66e6cb484e0c57d37763f65bca
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uhw2zj4lre/out/v1/b28f140503c54c0b8c863d2a2d190f7f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - SKY SPORTS CRICKET
+#EXTVLCOPT:http-user-agent=Mozilla
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - FANCODE FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f60169a33f5c94aca22d7d93079bbfa1:888e18968c39f6e3b7fcada59b87e857
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ym9kbji9jh/out/v1/fddb9964cee64f9a9f5bd97bf0ad668e/cenc.mpd?
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NFL%20REDZONE%20Vs%20NFL%20REDZONE.jpg" group-title="American football", NFL REDZONE Vs NFL REDZONE - REDZONE FHD
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - T SPORTS HD
+https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - WILLOW ALT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ef575f9bbbc7bd252eb629553c04b572:036c3c66e6cb484e0c57d37763f65bca
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/uhw2zj4lre/out/v1/b28f140503c54c0b8c863d2a2d190f7f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/South%20Africa%20Vs%20Bangladesh.jpg" group-title="Cricket", South Africa Vs Bangladesh - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/RREGEGEAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italia%20T10%20League%20Vs%20Italia%20T10%20League.jpg" group-title="Cricket", Italia T10 League Vs Italia T10 League - UNBEATEN FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italia%20T10%20League%20Vs%20Italia%20T10%20League.jpg" group-title="Cricket", Italia T10 League Vs Italia T10 League - SandBrix HD
+https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/ILT20%20Vs%20ILT20.jpg" group-title="Cricket", ILT20 Vs ILT20 - WILLOW FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bc80c0b7f64185f59b3eb9129ea16f4d:625c429192608e209508a10c86780a7c
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g0tdsq9yi2/out/v1/732ff57fc3cf49b791421213b7c9b211/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/ILT20%20Vs%20ILT20.jpg" group-title="Cricket", ILT20 Vs ILT20 - TNT3 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NFL%20REDZONE%20Vs%20NFL%20REDZONE.jpg" group-title="American football", NFL REDZONE Vs NFL REDZONE - SERVER 1
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60732/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NFL%20REDZONE%20Vs%20NFL%20REDZONE.jpg" group-title="American football", NFL REDZONE Vs NFL REDZONE - SERVER HD 2
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60733/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/NFL%20REDZONE%20Vs%20NFL%20REDZONE.jpg" group-title="American football", NFL REDZONE Vs NFL REDZONE - SERVER HD 3
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60734/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Quer%C3%A9taro%20FC%20Vs%20Club%20Necaxa.jpg" group-title="Football", Querétaro FC Vs Club Necaxa - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/KIKIKIAAAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Whitecaps%20Vs%20Real%20Salt%20Lake.jpg" group-title="Football", Vancouver Whitecaps Vs Real Salt Lake - TSN5 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/ILT20%20Vs%20ILT20.jpg" group-title="Cricket", ILT20 Vs ILT20 - FANCODE FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Whitecaps%20Vs%20Real%20Salt%20Lake.jpg" group-title="Football", Vancouver Whitecaps Vs Real Salt Lake - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60820/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Whitecaps%20Vs%20Real%20Salt%20Lake.jpg" group-title="Football", Vancouver Whitecaps Vs Real Salt Lake - TV QUALITY
-http://162.251.160.53:8089/1847/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Whitecaps%20Vs%20Real%20Salt%20Lake.jpg" group-title="Football", Vancouver Whitecaps Vs Real Salt Lake - LOW QUALITY (USE VPN)
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Tajikistan%20U17%20Vs%20Croatia%20U17.jpg" group-title="Football", Tajikistan U17 Vs Croatia U17 - SERVER + HD
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/KIKIKIAAAAQ.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Instituto%20De%20C%C3%B3rdoba%20Vs%20Hurac%C3%A1n.jpg" group-title="Football", Instituto De Córdoba Vs Huracán - LOW QUALITY (USE VPN)
+http://193.47.62.41/hls/BYYYAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Tajikistan%20U17%20Vs%20Croatia%20U17.jpg" group-title="Football", Tajikistan U17 Vs Croatia U17 - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/KIKIKIAAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - TSN3 SPORTS FHD
+http://193.47.62.41/hls/BYYYAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Uzbekistan%20U17%20Vs%20Jamaica%20U17.jpg" group-title="Football", Uzbekistan U17 Vs Jamaica U17 - SERVER + HD
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Uzbekistan%20U17%20Vs%20Jamaica%20U17.jpg" group-title="Football", Uzbekistan U17 Vs Jamaica U17 - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Senegal%20U17%20Vs%20Cuba%20U17.jpg" group-title="Football", Senegal U17 Vs Cuba U17 - SERVER + HD
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAAQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Senegal%20U17%20Vs%20Cuba%20U17.jpg" group-title="Football", Senegal U17 Vs Cuba U17 - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAAQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Spain%20U17%20Vs%20Fiji%20U17.jpg" group-title="Football", Spain U17 Vs Fiji U17 - FOX2 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Spain%20U17%20Vs%20Fiji%20U17.jpg" group-title="Football", Spain U17 Vs Fiji U17 - D SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Spain%20U17%20Vs%20Fiji%20U17.jpg" group-title="Football", Spain U17 Vs Fiji U17 - TUDN MEXICO FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Spain%20U17%20Vs%20Fiji%20U17.jpg" group-title="Football", Spain U17 Vs Fiji U17 - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20U17%20Vs%20C%C3%B4te%20d%27Ivoire%20U17.jpg" group-title="Football", Italy U17 Vs Côte d'Ivoire U17 - FOX2 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20U17%20Vs%20C%C3%B4te%20d%27Ivoire%20U17.jpg" group-title="Football", Italy U17 Vs Côte d'Ivoire U17 - D SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20U17%20Vs%20C%C3%B4te%20d%27Ivoire%20U17.jpg" group-title="Football", Italy U17 Vs Côte d'Ivoire U17 - TSN3 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - SPORTV2 BR FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20U17%20Vs%20C%C3%B4te%20d%27Ivoire%20U17.jpg" group-title="Football", Italy U17 Vs Côte d'Ivoire U17 - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Neftchi%20Fergana%20Vs%20Al-Hilal.jpg" group-title="Football", Neftchi Fergana Vs Al-Hilal - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAAQQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bangladesh%20A%20Vs%20Sri%20Lanka%20A.jpg" group-title="http://img.sofascore.com/api/v1/unique-tournament/11189/image/dark", Bangladesh A Vs Sri Lanka A - Link 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60821/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60818/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - HD QUALITY 2
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60816/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - HD QUALITY 3
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60817/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/BEEEA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/San%20Francisco%2049ers%20Vs%20Minnesota%20Vikings.jpg" group-title="American football", San Francisco 49ers Vs Minnesota Vikings - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/BEEE.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Dallas%20Stars%20Vs%20Pittsburgh%20Penguins.jpg" group-title="Hockey", Dallas Stars Vs Pittsburgh Penguins - NOVA1 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_key=1f5fcb1ee0ebcdf807d4807767ee66a0:dac7ee8c999b9516a04f0c0bdd3aef34
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/maww3shfhu/out/v1/da7a0597e1fb4f2bb672e1a38d58c383/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Bangladesh%20A%20Vs%20Sri%20Lanka%20A.jpg" group-title="http://img.sofascore.com/api/v1/unique-tournament/11189/image/dark", Bangladesh A Vs Sri Lanka A - PRIME VIDEO FHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Dallas%20Stars%20Vs%20Pittsburgh%20Penguins.jpg" group-title="Hockey", Dallas Stars Vs Pittsburgh Penguins - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60808/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Dallas%20Stars%20Vs%20Pittsburgh%20Penguins.jpg" group-title="Hockey", Dallas Stars Vs Pittsburgh Penguins - SPORTSCAST
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d4e6465c-495a-403f-b020-0d7e39e38218/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Canucks%20Vs%20Chicago%20Blackhawks.jpg" group-title="Hockey", Vancouver Canucks Vs Chicago Blackhawks - NOVA2 SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Canucks%20Vs%20Chicago%20Blackhawks.jpg" group-title="Hockey", Vancouver Canucks Vs Chicago Blackhawks - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60815/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vancouver%20Canucks%20Vs%20Chicago%20Blackhawks.jpg" group-title="Hockey", Vancouver Canucks Vs Chicago Blackhawks - SPORTSCAST
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/775b8ee6-777f-464a-a015-7e3f5dcbafb1/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/St.%20Louis%20Blues%20Vs%20Edmonton%20Oilers.jpg" group-title="Hockey", St. Louis Blues Vs Edmonton Oilers - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60804/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/St.%20Louis%20Blues%20Vs%20Edmonton%20Oilers.jpg" group-title="Hockey", St. Louis Blues Vs Edmonton Oilers - SPORTSCAST FHD
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/8e7673d3-1088-4bbf-b15f-81c34e5c203d/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Bulls%20Vs%20Denver%20Nuggets.jpg" group-title="Basketball", Chicago Bulls Vs Denver Nuggets - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60803/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Bulls%20Vs%20Denver%20Nuggets.jpg" group-title="Basketball", Chicago Bulls Vs Denver Nuggets - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60809/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Bulls%20Vs%20Denver%20Nuggets.jpg" group-title="Basketball", Chicago Bulls Vs Denver Nuggets - LOW QUALITY (USE VPN)
+#KODIPROP:inputstream.adaptive.license_key=88c543d8b2d0fb9736930d9f7115d02c:474298fb05d7bbc6d4605b99ec7013be
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y9w1vhkmod/out/v1/db4038c42a2c4ab4acc3642f1f7435dd/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vietnam%20U17%20Vs%20New%20Zealand%20U17.jpg" group-title="Football", Vietnam U17 Vs New Zealand U17 - SERVER + HD
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.44/hls/EUUU.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Golden%20State%20Warriors%20Vs%20Boston%20Celtics.jpg" group-title="Basketball", Golden State Warriors Vs Boston Celtics - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60824/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Golden%20State%20Warriors%20Vs%20Boston%20Celtics.jpg" group-title="Basketball", Golden State Warriors Vs Boston Celtics - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60819/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Golden%20State%20Warriors%20Vs%20Boston%20Celtics.jpg" group-title="Basketball", Golden State Warriors Vs Boston Celtics - LOW QUALITY (USE VPN)
+http://193.47.62.41/hls/BYYYAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Vietnam%20U17%20Vs%20New%20Zealand%20U17.jpg" group-title="Football", Vietnam U17 Vs New Zealand U17 - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.44/hls/EUUUA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Knicks%20Vs%20Indiana%20Pacers.jpg" group-title="Basketball", New York Knicks Vs Indiana Pacers - TSN1 SPORTS FHD
+http://193.47.62.41/hls/BYYYAAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mali%20U17%20Vs%20Belgium%20U17.jpg" group-title="Football", Mali U17 Vs Belgium U17 - SERVER + HD
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAAQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Mali%20U17%20Vs%20Belgium%20U17.jpg" group-title="Football", Mali U17 Vs Belgium U17 - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.41/hls/BYYYAAAAQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Morocco%20U17%20Vs%20China%20U17.jpg" group-title="Football", Morocco U17 Vs China U17 - TUDN MEXICO FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Knicks%20Vs%20Indiana%20Pacers.jpg" group-title="Basketball", New York Knicks Vs Indiana Pacers - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60814/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Knicks%20Vs%20Indiana%20Pacers.jpg" group-title="Basketball", New York Knicks Vs Indiana Pacers - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60823/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Knicks%20Vs%20Indiana%20Pacers.jpg" group-title="Basketball", New York Knicks Vs Indiana Pacers - LOW QUALITY (USE VPN)
+#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Morocco%20U17%20Vs%20China%20U17.jpg" group-title="Football", Morocco U17 Vs China U17 - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.59/hls/EUUUAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Utah%20Jazz%20Vs%20Dallas%20Mavericks.jpg" group-title="Basketball", Utah Jazz Vs Dallas Mavericks - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60810/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Utah%20Jazz%20Vs%20Dallas%20Mavericks.jpg" group-title="Basketball", Utah Jazz Vs Dallas Mavericks - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60806/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Utah%20Jazz%20Vs%20Dallas%20Mavericks.jpg" group-title="Basketball", Utah Jazz Vs Dallas Mavericks - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.59/hls/EUUUAAAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Washington%20Wizards%20Vs%20Orlando%20Magic.jpg" group-title="Basketball", Washington Wizards Vs Orlando Magic - SERVER + HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60807/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Washington%20Wizards%20Vs%20Orlando%20Magic.jpg" group-title="Basketball", Washington Wizards Vs Orlando Magic - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.59/hls/EUUUAAA.m3u8
+http://193.47.62.44/hls/R555AAA.m3u8
