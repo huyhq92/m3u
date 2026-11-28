@@ -1435,233 +1435,176 @@ https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a5
 https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8
 #EXTINF:-1 group-title="🎵 Nghe nhạc" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/picture/main/nkl.png", ZingRadio 12 - Nhạc không lời
 https://multi-playlist-zmp3.zmdcdn.me/4WEUr_3aq8I/zhls/playback-realtime/1f36d59ae9df008159ce/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - TNT2UK SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - FANCODE1 FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - SKY SPORT MIX FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - MotoGP FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - SP0TV FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/MotorGP%20Vs%20MotorGP.jpg" group-title="Motorsports", MotorGP Vs MotorGP - SKY TOP EVENT FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - FANCODE FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SporTV3 BR FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SKY SPORT F1 FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0d7d09d646a2a4edd51b87563abe77a3:a1e63461298a129daa947f42cbad4aa2
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l1pw9fzori/out/v1/68469cf8a4ba49608a0e0fab18d45aee/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - FORMULA TV HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61118/load-playlist-multi?
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - TSN SPORTS FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - TSN1 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SKY TOP EVENT FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - TSN3 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - NFL SERVER+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61168/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - NFL SERVER+ HD 1
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61145/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - NFL SERVER+ HD 2
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61146/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - NFL SERVER+ HD 3
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61147/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - NFL SERVER+ HD 4
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61148/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Denver%20Broncos%20Vs%20Pittsburgh%20Steelers.jpg" group-title="American football", Denver Broncos Vs Pittsburgh Steelers - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.55/hls/PPPPA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Blackhawks%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Chicago Blackhawks Vs New York Rangers - SERVER+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61194/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Blackhawks%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Chicago Blackhawks Vs New York Rangers - Sky Top Event- AQ
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dg9oi3org7/out/v1/e75b690762ba4c4ca72bf30703a4473e/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - TSN5 SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - TSN SPORTS HD
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Blackhawks%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Chicago Blackhawks Vs New York Rangers - SM IPTV Live
+https:\/\/chatgpt.hereisman.net\/playlist\/61194\/load-playlist
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Blackhawks%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Chicago Blackhawks Vs New York Rangers - SD STREAM
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/120369e1-6e5f-4ac7-b694-c1f2407ebcd2/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chicago%20Blackhawks%20Vs%20New%20York%20Rangers.jpg" group-title="Hockey", Chicago Blackhawks Vs New York Rangers - HD SERVER
+https://chatgpt.hereisman.net/playlist/61194/load-playlist
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Chile%20Vs%20Mexico.jpg" group-title="Basketball", Chile Vs Mexico - SERVER TV+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/60715/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SPORTSCAST FHD
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/76499995-c8a6-4163-b39c-99f6566e78f1/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - FORMULA+ HD
-https://admin2.formaturamaxi.com.br/f1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - LOW QUALITY (USE VPN)
+https://chatgpt.hereisman.net/playlist/61196/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Brazil%20Vs%20USA.jpg" group-title="Basketball", Brazil Vs USA - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61200/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD QUALITY + LIVE
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61171/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD QUALITY SMACK
+https://admin2.formaturamaxi.com.br/wwe.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - LOW QUALITY (USE VPN)
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.59/hls/TFFFAAAQQQ.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - CANAL MX FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - TSN2 SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SKY F1 (ITALY)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118d83348830358060d408a72f56f29:648378946f2f70f43af47ff9bf3e329b
-https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1791804090_s~35174801-9c9a-4ac6-8180-bcceaba6c98a_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_l~70_x~743ee2be13010752947f25f2eda5b1b044b9c8690dcbb5f1493a82650dd39ca2/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - FANCODE - AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - Sportv 3 BR - AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - CANAL5 FHD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - AUVIO SPORTS - AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=92103dbd34b2430eaf2cb24c68c2bac3:897328898d0de93cd7fb8598a4b75f09
-https://C9851Ec-rbm-hilv-fsly.cdn.redbee.live/L5/cd1fd9ab/1cd70056.isml/.mpd?t=2026-11-08T16:25:00.000
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SETANTA SPORTS AQ
-https://hoast-plm.shop/playztv/links.php?id=setanta2.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - Sportscast FHD
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/10aebb0b-9c74-4664-abd9-acc9085c27e8/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SKY SPORTS HD
-https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - RUSSIAN FEED
-https://bl.rutube.ru/livestream/a1fd78e2a2feb33f0fef612d1e89d2fb/index.m3u8?s=dZh7JGBoPLF3dWOFCuCQ7Q&e=1785073158&scheme=https
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - SKY SPORT HD
-https://chatgpt.hereisman.net/playlist/58439/load-playlist?
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Formula%201%20Vs%20Formula%201.jpg" group-title="Motorsports", Formula 1 Vs Formula 1 - ELEVEN SPORTS
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69021095220f3c0eae9bc24215fd692b:eb58cfe0458ed0b48f7351fa3393ad59
-https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/One%20Friday%20Fights%20Vs%20One%20Friday%20Fights.jpg" group-title="Boxing", One Friday Fights Vs One Friday Fights - Server 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/One%20Friday%20Fights%20Vs%20One%20Friday%20Fights.jpg" group-title="Boxing", One Friday Fights Vs One Friday Fights - Server 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
-https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/One%20Friday%20Fights%20Vs%20One%20Friday%20Fights.jpg" group-title="Boxing", One Friday Fights Vs One Friday Fights - Server 3
-https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/One%20Friday%20Fights%20Vs%20One%20Friday%20Fights.jpg" group-title="Boxing", One Friday Fights Vs One Friday Fights - MMA Fighting
+http://193.47.62.44/hls/MPMPMPAAA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - MULTI QUALITY
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+https://chatgpt.hereisman.net/playlist/58881/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE SMACK+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61127/load-playlist?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Kazakhstan%20Vs%20Kuwait.jpg" group-title="Basketball", Kazakhstan Vs Kuwait - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/XAXAXA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Czechia.jpg" group-title="Tennis", Italy Vs Czechia - BEIN SPORTS
+https://chatgpt.hereisman.net/playlist/58881/load-playlist?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE SMACK
+https://navidrome.fromthyheart.site/dailymotion/live/playlist/4.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD
+https://jellyfin.fromthyheart.site/dailymotion/live/playlist/1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD4
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - STREAM HD QUALITY
+https://jellyfin.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - HD QUALITY SMK
+https://plex.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SmackDown HD
+https://raw.githubusercontent.com/athenapanda26/hls/refs/heads/main/smack.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD5
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD6
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SPORT CAST FHD5
+https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - WWE LIVE FHD1
+https://acumen.loreofeldenring.site/dailymotion/live/playlist/1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - USA TV (US VPN)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Czechia.jpg" group-title="Tennis", Italy Vs Czechia - TENNIS TV DE AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2b8cd782fe332547063317b3f58de936:98c9c8f4e23e3a7a083d26857d5881ab
-https://hoast-plm.shop/playztv/links.php?id=tennistv1.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Italy%20Vs%20Czechia.jpg" group-title="Tennis", Italy Vs Czechia - TSN SPORTS AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Xavier%20Musketeers%20Vs%20Virginia%20Cavaliers.jpg" group-title="Basketball", Xavier Musketeers Vs Virginia Cavaliers - SERVER+ HD
+#KODIPROP:inputstream.adaptive.license_key=58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41
+https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SM IPTV WWE
+https://chatgpt.hereisman.net/playlist/54963/load-playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - NETFLIX HD
+https://jellyfin.fromthyheart.site/dailymotion/live/playlist/2.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - NETFLIX SD
+https://jellyfin.fromthyheart.site/dailymotion/live/playlist/3.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SM IPTV HD
+https://pz.ekkktb.workers.dev/?q=WWE vs wwe
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SM IPTV Live
+https:\/\/chatgpt.hereisman.net\/playlist\/58881\/load-playlist
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/SmackDown%20Vs%20SmackDown.jpg" group-title="Boxing", SmackDown Vs SmackDown - SD STREAM
+http://193.47.62.41/hls/A555AAAAQQQ.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Knicks%20Vs%20Miami%20Heat.jpg" group-title="Basketball", New York Knicks Vs Miami Heat - SERVER TV+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61129/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Florida%20International%20Panthers%20Vs%20North%20Dakota%20Fighting%20Hawks.jpg" group-title="Basketball", Florida International Panthers Vs North Dakota Fighting Hawks - SERVER TV+ HD
+https://chatgpt.hereisman.net/playlist/61201/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Indiana%20Pacers%20Vs%20Philadelphia%2076ers.jpg" group-title="Basketball", Indiana Pacers Vs Philadelphia 76ers - SERVER TV+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61130/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fiji%20Vs%20Italy.jpg" group-title="Rugby", Fiji Vs Italy - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/JRRRAAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Fiji%20Vs%20Italy.jpg" group-title="Rugby", Fiji Vs Italy - PRIME VIDEO - AQ
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Estonia%20Vs%20France.jpg" group-title="Basketball", Estonia Vs France - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.41/hls/J777AA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Ole%20Miss%20Rebels%20Vs%20Mississippi%20State%20Bulldogs.jpg" group-title="American football", Ole Miss Rebels Vs Mississippi State Bulldogs - SERVER+ HD
+https://chatgpt.hereisman.net/playlist/61209/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Detroit%20Pistons%20Vs%20Milwaukee%20Bucks.jpg" group-title="Basketball", Detroit Pistons Vs Milwaukee Bucks - SERVER TV+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61136/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Ole%20Miss%20Rebels%20Vs%20Mississippi%20State%20Bulldogs.jpg" group-title="American football", Ole Miss Rebels Vs Mississippi State Bulldogs - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/kikikiAA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/UTSA%20Roadrunners%20Vs%20Tulsa%20Golden%20Hurricane.jpg" group-title="American football", UTSA Roadrunners Vs Tulsa Golden Hurricane - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61133/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/UTSA%20Roadrunners%20Vs%20Tulsa%20Golden%20Hurricane.jpg" group-title="American football", UTSA Roadrunners Vs Tulsa Golden Hurricane - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/kikikiAAQ.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Akron%20Zips%20Vs%20Buffalo%20Bulls.jpg" group-title="American football", Akron Zips Vs Buffalo Bulls - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61131/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Akron%20Zips%20Vs%20Buffalo%20Bulls.jpg" group-title="American football", Akron Zips Vs Buffalo Bulls - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/kikiki.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Iowa%20Hawkeyes%20Vs%20Nebraska%20Cornhuskers.jpg" group-title="American football", Iowa Hawkeyes Vs Nebraska Cornhuskers - SERVER+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61137/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Iowa%20Hawkeyes%20Vs%20Nebraska%20Cornhuskers.jpg" group-title="American football", Iowa Hawkeyes Vs Nebraska Cornhuskers - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/kikikiAAQQ.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Ohio%20Bobcats%20Vs%20Toledo%20Rockets.jpg" group-title="American football", Ohio Bobcats Vs Toledo Rockets - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61132/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Ohio%20Bobcats%20Vs%20Toledo%20Rockets.jpg" group-title="American football", Ohio Bobcats Vs Toledo Rockets - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/kikikiA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Emanuel%20Odiase%20Vs%20Mike%20Perez.jpg" group-title="Boxing", Emanuel Odiase Vs Mike Perez - Link 1
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61126/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Latvia%20Vs%20Germany.jpg" group-title="Basketball", Latvia Vs Germany - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-http://193.47.62.50/hls/JMMMA.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20Jersey%20Devils%20Vs%20Calgary%20Flames.jpg" group-title="Hockey", New Jersey Devils Vs Calgary Flames - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61142/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Nashville%20Predators%20Vs%20Utah%20Mammoth.jpg" group-title="Hockey", Nashville Predators Vs Utah Mammoth - SERVER TV+ HD
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61139/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Bruins%20Vs%20Toronto%20Maple%20Leafs.jpg" group-title="Hockey", Boston Bruins Vs Toronto Maple Leafs - TSN4 SPORTS FHD
+https://chatgpt.hereisman.net/playlist/61205/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Toronto%20Raptors%20Vs%20Brooklyn%20Nets.jpg" group-title="Basketball", Toronto Raptors Vs Brooklyn Nets - TSN4 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Bruins%20Vs%20Toronto%20Maple%20Leafs.jpg" group-title="Hockey", Boston Bruins Vs Toronto Maple Leafs - PREMIERE2 SPORTS FHD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Toronto%20Raptors%20Vs%20Brooklyn%20Nets.jpg" group-title="Basketball", Toronto Raptors Vs Brooklyn Nets - SERVER+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61207/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Toronto%20Raptors%20Vs%20Brooklyn%20Nets.jpg" group-title="Basketball", Toronto Raptors Vs Brooklyn Nets - HD QUALITY 2
+https://www.rtmpcdn.com/live/752de28f-c538-4f32-b2cf-3f292fbdcf3e.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Toronto%20Raptors%20Vs%20Brooklyn%20Nets.jpg" group-title="Basketball", Toronto Raptors Vs Brooklyn Nets - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.59/hls/A333A.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Islanders%20Vs%20Winnipeg%20Jets.jpg" group-title="Hockey", New York Islanders Vs Winnipeg Jets - TSN3 SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Bruins%20Vs%20Toronto%20Maple%20Leafs.jpg" group-title="Hockey", Boston Bruins Vs Toronto Maple Leafs - SERVER+ HD
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/New%20York%20Islanders%20Vs%20Winnipeg%20Jets.jpg" group-title="Hockey", New York Islanders Vs Winnipeg Jets - SERVER+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61141/load-playlist-multi?&.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Bruins%20Vs%20Toronto%20Maple%20Leafs.jpg" group-title="Hockey", Boston Bruins Vs Toronto Maple Leafs - Sky Sport Mix - AQ
+https://chatgpt.hereisman.net/playlist/61208/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Wisconsin%20Badgers%20Vs%20Minnesota%20Golden%20Gophers.jpg" group-title="American football", Wisconsin Badgers Vs Minnesota Golden Gophers - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61211/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Texas%20A%26M%20Aggies%20Vs%20Texas%20Longhorns.jpg" group-title="American football", Texas A&M Aggies Vs Texas Longhorns - TSN2 SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Sweden%20Vs%20Hungary.jpg" group-title="Basketball", Sweden Vs Hungary - SERVER TV+ HD
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Iowa%20State%20Cyclones%20Vs%20St.%20John%27s%20Red%20Storm.jpg" group-title="Basketball", Iowa State Cyclones Vs St. John's Red Storm - SERVER TV+ HD
+#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Texas%20A%26M%20Aggies%20Vs%20Texas%20Longhorns.jpg" group-title="American football", Texas A&M Aggies Vs Texas Longhorns - SERVER+ HD
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
-https://chatgpt.hereisman.net/playlist/61140/load-playlist-multi?&.m3u8
+https://chatgpt.hereisman.net/playlist/61210/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Houston%20Cougars%20Vs%20Oakland%20Golden%20Grizzlies.jpg" group-title="Basketball", Houston Cougars Vs Oakland Golden Grizzlies - SERVER TV+ HD
+https://file.genoads.com/ch1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Celtics%20Vs%20Atlanta%20Hawks.jpg" group-title="Basketball", Boston Celtics Vs Atlanta Hawks - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61213/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Boston%20Celtics%20Vs%20Atlanta%20Hawks.jpg" group-title="Basketball", Boston Celtics Vs Atlanta Hawks - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+http://193.47.62.50/hls/A555AA.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Buffalo%20Sabres%20Vs%20Pittsburgh%20Penguins.jpg" group-title="Hockey", Buffalo Sabres Vs Pittsburgh Penguins - PREMIER1 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Buffalo%20Sabres%20Vs%20Pittsburgh%20Penguins.jpg" group-title="Hockey", Buffalo Sabres Vs Pittsburgh Penguins - NOVA1 SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Buffalo%20Sabres%20Vs%20Pittsburgh%20Penguins.jpg" group-title="Hockey", Buffalo Sabres Vs Pittsburgh Penguins - SERVER+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/61214/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Edmonton%20Oilers%20Vs%20Seattle%20Kraken.jpg" group-title="Hockey", Edmonton Oilers Vs Seattle Kraken - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Colombia%20Vs%20Dominican%20Republic.jpg" group-title="Basketball", Colombia Vs Dominican Republic - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Minnesota%20Timberwolves%20Vs%20Memphis%20Grizzlies.jpg" group-title="Basketball", Minnesota Timberwolves Vs Memphis Grizzlies - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/main/match_image/Phoenix%20Suns%20Vs%20Dallas%20Mavericks.jpg" group-title="Basketball", Phoenix Suns Vs Dallas Mavericks - SERVER TV+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8
